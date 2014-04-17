@@ -1,0 +1,256 @@
+<www.amazon.com>
+    <spage>
+		<xp>
+        //div[4]/div/div/div[4]/div/div/div[%s]/h3/a/@href
+		</xp>
+		<npage>
+
+    	</npage>
+    	<apnd>
+    	http://www.amazon.com/s/?page=%s&keywords=digital+camera;1-5
+    	<apnd>
+    </spage>
+
+    <title>
+        //div/div/h1/span/text()
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+			<date></date>
+			<title></title>
+			<rating></rating>
+			<author></author>
+			<text></text>	
+
+			<npage>
+    		</npage>
+    </rev>
+</www.amazon.com>
+
+
+
+
+<www.buzzillions.com>
+    <spage>
+		<xp>
+         //ul/li[%s]/div/div/h2/a/@href
+		</xp>
+		<npage>
+            //*[@class="bz-pagination bz-next"]/@href
+    	</npage>
+    	<apnd>
+    	<apnd>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>	
+			<date>//text() | //div/text()</date>
+			<title></title>
+			<rating></rating>
+			<author></author>
+			<text></text>	
+    </rev>
+    <npage>
+    </npage>
+</www.buzzillions.com>	
+
+
+
+
+<www.rakuten.com>
+    <spage>
+		<xp>
+		</xp>
+        <npage>
+        </npage>
+        <apnd>
+    	<apnd>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.rakuten.com>		
+
+
+
+<www.newegg.com>
+	<spage>
+		<xp>
+        //div[4]/div[3]/div/div[4]/div/div[%s]/div[2]/div/a/@href
+		</xp>
+        <npage>
+
+    	</npage>
+    	<apnd>
+    	    &Page=%s
+    	<apnd>
+    </spage>
+    <title>
+        //span[@itemprop="name"]/text()
+    </title>
+    <spec>
+        //div[@id="Specs"]//text()
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.newegg.com>
+			
+<www.target.com>
+    <spage>
+        <xp>
+		</xp>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.target.com>
+
+<www.cnet.com>
+    <spage>
+      <xp>
+	  </xp>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.cnet.com>				
+
+<www.wayfair.com>
+	<spage>
+		<xp>
+        //div/ul/li[%s]/div/div/a/@href
+		</xp>
+        <npage>
+    	</npage>
+    	<apnd>
+    	<apnd>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.wayfair.com>
+
+<www.zappos.com>
+    <spage>
+		<xp>
+        //div/div[4]/div/a[1]/@href
+		</xp>
+        <npage>
+        //div/div[4]/div[2]/div/a[4]/@href
+        </npage>
+        <apnd>
+    	<apnd>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.zappos.com>				
+
+<www.abt.com>
+    <spage>
+		<xp>
+    
+		</xp>
+        <npage>
+
+        </npage>
+        <apnd>
+    	<apnd>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.abt.com>				
+
+<www.reviews42.com>
+    <spage>
+	<xp>
+    //div[4]/div/div[3]/div[3]/div[2]/div[1]/div/a/@href
+	</xp>
+    </spage>
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.reviews42.com>		
+
+<www.hayneedle.com>
+
+    <spage>
+		<xp>
+        //div[4]/div/div[1]/div/div[2]/div/div/div[1]/a[1]/@href
+		</xp>
+        <npage>
+        //div/div[4]/div[2]/div/a[4]/@href
+        </npage>
+        <apnd>
+    	<apnd>
+    </spage>
+
+    <title>
+        //For product page
+    </title>
+    <spec>
+        //For product page
+    </spec>
+    <rev>
+    </rev>
+    <npage>
+    </npage>
+</www.hayneedle.com>			 

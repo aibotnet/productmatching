@@ -1,0 +1,1162 @@
+<page>
+<title>Nikon D3200 Black Digital SLR Kit - 25492</title>
+<spec>
+Specifications
+    DSLR
+    Type Single-lens reflex digital camera
+    Lens Mount Nikon F bayonet mount
+    Picture Angle Effective picture angle 1.5x (Approx.) conversion factor (Nikon DX format)
+    Effective Pixels 24.2 million
+    Sensor Size 23.2mm x 15.4mm
+    Image Sensor Format DX
+    Image Sensor Type CMOS
+    Total Pixels 24.7 million
+    Dust-reduction system Image sensor cleaning
+    Image Area (pixels)
+        DX-format
+        (L) 6,016 × 4,000
+        (M) 4,512 × 3,000
+        (S) 3,008 × 2,000
+    File Format Still Images
+        Compressed 12-bit NEF (RAW)
+        JPEG: JPEG-Baseline Compliant with fine (approx 1:4), Normal (approx 1:8) or Basic (approx 1:16) Compression
+        NEF (RAW) + JPEG: Single Photograph Recorded in both NEF (RAW) and JPEG Formats
+    Picture Control
+        Landscape
+        Monochrome
+        Neutral
+        Portrait
+        Selected Picture Control can be Modified
+        Standard
+        Vivid
+    Storage Media
+        SD
+        SDHC
+        SDXC
+    Card Slot
+        1 Secure Digital (SD)
+    File System
+        Compliant with DCF (Design Rule for Camera File System) 2.0
+        DPOF (Digital Print Order Format)
+        EXIF 2.3 (Exchangeable Image File Format for Digital Still Cameras)
+    Viewfinder Eye-level Pentamirror Single-Lens Reflex viewfinder
+    Viewfinder Frame Coverage 95% Horizontal Approx.
+    Viewfinder Magnification 0.78x Approx.
+    Viewfinder Eyepoint 18mm (-1.0m¯¹)
+    Viewfinder Diopter Adjustment -1.7 to +0.5m¯¹
+    Focusing Screen Type B BriteView Clear Matte Mark VII screen
+    Reflex Mirror Quick-return type
+    Lens Aperture Instant-return type
+    Lens Compatibility at a Glance*** AF-S Lens Required for Autofocus
+    Compatible Lenses
+        AF NIKKOR for F3AF not Supported
+        AF-S, AF-I: All Functions Supported
+        AI-P NIKKOR: All Functions Supported Except Autofocus and 3D Color Matrix Metering II
+        Electronic Rangefinder can be used if Maximum Aperture is f/5.6 or Faster
+        IX NIKKOR Lenses Cannot be Used
+        Non-CPU: Autofocus not supported. Can be used in mode M, but exposure meter does not function.
+        Other AF NIKKOR: All Functions Supported Except autofocus and 3D Color Matrix Metering II
+        Type G or D AF NIKKOR: All Functions Supported Except Autofocus
+        Type D PC NIKKOR: All Functions Supported Except Autofocus and some Shooting Modes
+    Shutter type Electronically controlled vertical-travel focal-plane
+    Shutter Speed 1/4000 to 30 sec.
+    Fastest Shutter Speed 1/4000 sec.
+    Slowest Shutter Speed 30 sec.
+    Flash Sync Speed Up to 1/200 sec.
+    Shutter Release Modes
+        Continuous
+        Delayed remote
+        Quick Response Remote Mode
+        Quiet shutter-release
+        Self-timer mode
+        Single-frame [S] mode
+    Frame Advance Rate Up to 4 fps (manual focus, mode M or S, shutter speed 1/250 sec or faster, and other settings at default values)
+    Top Continuous Shooting Speed at full resolution 4 frames per second
+    Self-timer 2, 5, 10, 20 sec. Timer duration electronically controlled
+    Exposure Metering System TTL exposure metering using 420-pixel RGB sensor
+    Metering Method
+        Center-weighted: Weight of 75% given to 8mm circle in center of frame
+        Matrix: 3D color matrix metering II (type G and D lenses); color matrix metering II (other CPU lenses)
+        Spot: Meters 3.5mm circle (about 2.5% of frame) centered on selected focus point
+    Metering Range
+        0 to 20 EV (Matrix or center-weighted metering at ISO 100 equivalent, f/1.4 lens, at 20°C/68°F)
+        2 to 20 EV (Spot metering at ISO 100 equivalent, f/1.4 lens at 20°C/68°F)
+    Exposure Meter Coupling CPU
+    Exposure Modes
+        Aperture-Priority Auto (A)
+        Auto
+        Auto (flash off)
+        Manual (M)
+        Programmed Auto with flexible Program (P)
+        Shutter-Priority Auto (S)
+    Scene Modes
+        Auto
+        Auto [Flash Off]
+        Child
+        Close-up
+        Landscape
+        Night Portrait
+        Portrait
+        Sports
+    Exposure Compensation ±5 EV in increments of 1/3EV
+    Exposure Lock Luminosity locked at detected value with AE-L/AF-L button
+    Mirror Lock Up Yes (for image sensor cleaning)
+    ISO Sensitivity
+        ISO 100 - 6400
+        Hi-1 (ISO 12,800)
+    Lowest Standard ISO Sensitivity 100
+    Highest Standard ISO Sensitivity 6400
+    Highest Expanded ISO Sensitivity 1 EV above ISO 6400 (ISO 12800 equivalent)
+    Expanded ISO Sensitivity Options
+        1 EV above ISO 6400 (ISO 12800 equivalent)
+        Auto ISO sensitivity control available
+    High ISO Noise Reduction
+        Low
+        Normal
+        High
+        Off
+    Active D-Lighting
+        On
+        Off
+    Single-point AF Mode Yes
+    Dynamic AF Mode Number of AF points: 11 (3D-tracking)
+    Auto-area AF Mode Yes
+    Autofocus System Nikon Multi-CAM 1000 autofocus sensor module with TTL phase detection
+    Detection Range -1 to 19 EV (ISO 100, 68°F/20°C)
+    Lens Servo
+        Autofocus (AF):
+            Single-servo AF (AF-S)
+            Continuous-servo AF (AF-C)
+            auto AF-S/AF-C selection (AF-A)
+        predictive focus tracking activated automatically according to subject status
+        Manual focus (MF): Electronic rangefinder can be used
+    Focus Point Can be selected from 11 focus points
+    Focus Lock
+        Focus can be locked by pressing AE-L/AF-L button
+        Focus can be locked by pressing shutter-release button halfway (single-servo AF)
+    Focus Modes
+        Auto AF-S/AF-C selection (AF-A)
+        Continuous-servo (AF-C)
+        Face-Priority AF available in Live View only and D-Movie only
+        Full-time Servo (AF-A) available in Live View only
+        Manual (M) with electronic rangefinder
+        Normal area available in Live View and D-Movie only
+        Predictive focus tracking activated automatically according to subject status
+        Single-servo AF (AF-S)
+        Wide area available in Live View and D-Movie only
+    Maximum Autofocus Areas/Points 11
+    Autofocus Sensitivity -1 to +19 EV (ISO 100, 20°C/68°F)
+    Built-in Flash Yes
+    X-Sync Speed 1/200
+    Flash Control
+        TTL: i-TTL flash control using 420-pixel RGB sensor is available with built-in flash and SB-910, SB-900, SB-800, SB-700, SB-600, or SB-400
+        i-TTL balanced fill-flash for digital SLR is used with matrix and center-weighted
+    Flash Sync Modes
+        Front-curtain sync (normal)
+        Rear-curtain sync
+        Red-Eye reduction
+        Red-Eye reduction with slow sync
+        Slow sync
+    Flash Compensation
+        -3 to +1 EV in increments of 1/3 EV
+    Flash-ready indicator Lights when built-in flash or optional flash unit such as SB-910, SB-900, SB-400, SB-80DX, SB-28DX or SB-50DX is fully charged
+    Accessory Shoe Yes
+    Nikon Creative Lighting System (CLS) CLS Supported
+    Flash Sync Terminal Sync Terminal Adapter AS-15 (available separately)
+    White Balance
+        Auto
+        Cloudy
+        Direct Sunlight
+        Flash
+        Fluorescent (7 types)
+        Incandescent
+        Preset Manual
+        Shade
+    Live View Shooting Yes
+    Live View Lens servo
+        Autofocus (AF): Single-servo AF (AF-S); full-time-servo AF (AF-F)
+        Manual focus (MF)
+    Live View AF-area mode
+        Face-priority AF
+        Wide-area AF
+        Normal-area AF
+        Subject-tracking AF .
+    Live View Autofocus Contrast-detect AF anywhere in frame (camera selects focus point automatically when
+    face-priority AF or subject-tracking AF is selected)
+    Live View Scene Auto Selector
+        Auto mode
+        Auto (flash off) mode
+    Movie Metering TTL exposure metering using main image sensor
+    Movie Maximum recording time 20 min.
+    Movie File Format MOV
+    Movie Video Compression H.264/MPEG-4 Advanced Video Coding
+    Movie Audio recording format Linear PCM
+    Movie
+        HD 1,920x1,080 / 30 fps
+        HD 1,920x1,080 / 25 fps
+        HD 1,920x1,080 / 24 fps
+        HD 1,280x720 / 60 fps
+        HD 1,280x720 / 50 fps
+        VGA 640x424 / 30 fps
+        VGA 640x424 / 25 fps
+    Movie Audio
+        Built-in microphone, monaural
+        Optional external stereo mini-pin jack (3.5mm diameter)
+        Microphone sensitivity can be adjusted
+    Monitor Size 3.0 in. diagonal
+    Monitor Resolution 921,000 Dots
+    Monitor Type Wide Viewing Angle TFT-LCD
+    Monitor Angle of View 160-degree wide-viewing angle
+    Playback Functions
+        Auto Image Rotation
+        Full-Frame and Thumbnail (4, 9, or 72 images or calendar)
+        Highlights
+        Histogram Display
+        Image Comment
+        Movie Playback
+        Playback with Zoom
+        Slideshow
+    In-Camera Image Editing
+        Color Balance
+        Color Outline
+        Color Sketch
+        D-Lighting
+        Distortion Control
+        Filter Effects
+        Fisheye
+        Image Overlay
+        Miniature Effect
+        Monochrome
+        NEF (RAW) Processing
+        Perspective Control
+        Quick Retouch
+        Red-Eye Correction
+        Resize
+        Selective Color
+        Straighten
+        Trim
+    Interface
+        Accessory Terminal: Remote Cord: MC-DC2 (available separately); GPS unit: GP-1 (available separately)
+        Audio input: Stereo mini-pin jack (3.5-mm diameter)
+        HDMI output: Type C mini-pin HDMI connector
+        Hi-speed USB
+        Video Output: NTSC, PAL
+    Wi-Fi Functionality Eye-Fi Compatible
+    GPS GP-1 GPS unit
+    Recent Settings Yes
+    Supported Languages
+        Arabic
+        Brazilian Portuguese
+        Chinese (Simplified and Traditional)
+        Czech
+        Danish
+        Dutch
+        English
+        Finnish
+        French
+        German
+        Greek
+        Hindi
+        Hungarian
+        Indonesian
+        Italian
+        Japanese
+        Korean
+        Norweigan
+        Polish
+        Portuguese
+        Romanian
+        Russian
+        Spanish
+        Swedish
+        Thai
+        Turkish
+        Ukrainian
+    Date, Time and Daylight Savings Time Settings Yes
+    World Time Setting Yes
+    Battery / Batteries EN-EL14 Rechargeable Li-ion Battery
+    Battery Life (shots per charge) 540 shots per charge (Battery Life) (CIPA)
+    AC Adapter EH-5b AC Adapter; requires EP-5A Power Connector (available separately)
+    Battery Charger MH-24 Quick Charger
+    Tripod Socket 1/4 in.
+    Operating Environment 0–40 °C (+32–104 °F)
+
+What's in the Box
+
+    AF-S DX NIKKOR 18-55mm f/3.5-5.6G VR Lens
+    EN-EL14 Rechargeable Li-ion Battery
+    MH-24 Quick Charger
+    EG-CP14 Audio/Video Cable
+    UC-E6 USB Cable
+    DK-20 Rubber Eyecup
+    AN-DC3 Camera Strap
+    DK-5 Eyepiece Cap
+    BF-1B Body Cap
+    BS-1 Accessory Shoe Cover
+    NikonView NX CD-ROM
+
+Approximate Dimensions
+
+    Height: 3.8"
+    Depth: 3.1"
+    Width: 5"
+
+Approximate Weight
+
+    Unit: 1 lbs
+</spec>
+<mpn></mpn>
+<rev>
+<id>
+1
+</id>
+<id>
+2
+</id>
+</rev>
+</page>
+
+
+
+
+
+
+<page>
+<title>Nikon D3200 Digital SLR Camera and Nikon 9793 DSLR Value Pack  Bundle</title>
+<mpn></mpn>
+<spec>
+Color Red Optical Viewfinder Eye-level Pentamirror Single-Lens Reflex LCD Monitor 3.0-inches LCD Pixels 921,000 dots
+Camera Type Digital SLRs Megapixels 24MP Image Resolution 6016 x 4000 Exact Megapixels 24.2MP Sensor CMOS Movie
+Resolution 1920 x 1080 Shutter Speed 1/4000 to 30 sec. Light Metering Method Spot  Center-weighted  Matrix Exposure
+Modes Auto  Manual  Shutter-priority Auto  Aperture-priority Auto  Programmed Auto with Flexible Program  Auto (flash off)
+Exposure Compensation ±5 EV in increments of 1/3EV ISO Speed Range ISO 100 - 6400  Hi-1 (ISO 12,800) White Balance Control
+Auto  Cloudy  Incandescent  Flash  Shade  Direct Sunlight  Fluorescent (7 types)  Preset Manual Height 3.8 inches Width
+5.0 inches Weight 16 oz. Depth 3.1 inches Flash Mode Red-eye Reduction  Slow Sync  Rear-Curtain Sync  Front-Curtain Sync
+Red-Eye Reduction with Slow Sync Flash Exposure Compensation -3 to +1 EV in increments of 1/3 EV Continuous Shooting 4
+frames per second Playback Slideshow  Movie playback  Histogram Display  Auto image rotation  Full-Frame and Thumbnail
+(4, 9, or 72 images or calendar)  Highlights  Image Comment  Playback with Zoom Self-timer 2, 5, 10, 20 sec. Timer
+duration electronically controlled Condition New Height 3.8 inches Width 5.0 inches Weight 16 oz. Depth 3.1 inches Movie
+Image Resolution 1920 x 1080 Movie Audio Linear PCM Video Definition High Storage Media SDHC  SD  Secure Digital (SDXC)
+Compressed Format JPEG  Compressed 12-bit NEF (RAW)  NEF (RAW) + JPEG Movie File Format MOV Computer Interface USB 2.0
+high-speed Video Out NTSC, PAL Battery Form Factor Lithium-Ion Batteries Included EN-EL14 Rechargeable Li-ion Battery.
+</spec>
+<rev>
+<id>
+Great Deal Nikon D3200 Digital SLR Camera It's not the top of the line, but it is a good value for the upper end consumer.
+</id>
+<id>
+Great Deal Nikon D3200 Digital SLR Camera I received my Nikon D3200 a couple weeks ago, and have been using it a lot. It is a great product. I have owned several digital cameras, but this is my first SLR. It is replacing my old 35mm SLR.
+</id>
+<id>
+Great Deal Nikon D3200 Digital SLR Camera First DSLR, works great havent got it all figured out yet. Really good pix though
+</id>
+<id>
+Great Deal Nikon 9793 DSLR Value Pack  This was a gift for my husband. What a great Value, and wonderful Gift. This Case holds much more than that picture shows, and he loves the Nikon School DVD's. He is a Nikon Man anyway, so what a wonderful Value!!
+</id>
+<id>
+Great Deal Nikon 9793 DSLR Value Pack  Great product for the price.  Bought it for my son.
+</id>
+</rev>
+</page>
+
+
+
+
+<page>
+<title>Canon EF 75-300MM F/4-5.6 III Lens and Canon EOS Rebel T3 DSLR Camera Bundle</title>
+<mpn></mpn>
+<spec>
+Focal Length f= 17mm Color Black Optical Viewfinder TFT Color LCD Monitor 2.7-inches LCD Pixels 230,000 pixels LCD
+Coverage 99% Camera Type Digital SLRs Megapixels 12MP Image Resolution 4272 x 2848 Exact Megapixels 12.2MP Sensor
+CMOS Exposure Control Aperture-priority AE  Shutter-priority AE  Program AE  Flash Off  Full Auto  Manual Exposure
+E-TTL II autoflash program AE  Creative Auto  Automatic depth-of-field AE  Program AE with ambience selection Exposure
+Compensation AEB: ±2 stops in 1/3- or 1/2-stop increments  Manual: ±5 stops in 1/3- or 1/2-stop increments ISO Speed
+Range 400  800  1600  6400 AE Lock Auto: Applied in One-Shot AF mode with evaluative metering when focus is achieved.
+Manual: By AE lock button White Balance Control Daylight  Cloudy  Flash  Custom  Shade  White Fluorescent Light
+Tungsten Light Height 3.9 inches Width 5.1 inches Weight 17.4 oz Depth 3.1 inches Flash Mode Retractable  Auto pop-up
+Shooting Modes Standard  Custom  Landscape  Monochrome  Portrait  Neutral  Faithful Self-timer 10 - 2 sec. Condition
+New Height 3.9 inches Width 5.1 inches Weight 17.4 oz Depth 3.1 inches Movie Mode 30 fps Movie Image Resolution
+1280 × 720 Video Definition High Storage Media SDHC
+</spec>
+<rev>
+<id>
+Nice and Easy Canon EOS Rebel T3 DSLR Camera I've been using SLRs for 35 years +.  Decided it was time to go digital.  Very satisfied with my purchase!  And it cost alot less than my Dad's $1000 + digital!
+</id>
+<id>
+Nice and Easy Canon EF 75-300MM F/4-5.6 III Lens I'm extremely happy with my purchase and will definitely continue shopping with this company!!!
+</id>
+<id>
+Nice and Easy Canon EOS Rebel T3 DSLR Camera I owned a Pentax DSLR before this one.  The EOS is much easier to use and had all the features that the Pentax lacked.  The lens stabilizer is  a great addition.  I also have begun to use the movie recording aspect on it.  For the package that I bought came with a nice zoom lens along with the one already installed.  The cost of the whole package was more than worth it.
+</id>
+<id>
+Nice and Easy Canon EOS Rebel T3 DSLR Camera My first digital EOS camera
+only had this camera for a month and half and it is awesome, takes great picture still and in motion. Only regret is that I did not buy this sooner.
+</id>
+<id>
+Nice and Easy Canon EF 75-300MM F/4-5.6 III Lens very good quality in all aspects,I pull some pictures of some houses on a mountain at night and the picture came out sharp as crystal clear ,think during the day.
+</id>
+</rev>
+</page>
+<page>
+<title>Kensington K38074US Wall Laptop Power Adapter:ENERGY STAR® qualified</title>
+<mpn>K38074US</mpn>
+<spec>
+Laptop Accessories AC Adapters
+</spec>
+<rev>
+<id>
+Excellent for support department My people were losing their notebook chargers as fast as they lose their smartphone chargers. It was getting pricey to continue to replace them with original manufacturer chargers (HP &amp; Lenovo). This charger is half the price, but just as good. It works with all the notebooks we have at our site. I highly recommend.
+</id>
+<id>
+Excellent for support department Im the support guy for our small company and having many different types of laptops means different types of power adapters for those machines. This one is very good. Works with all our machines, Fujitsu, Toshiba, HP, & Dell. Really an essential for a support department having to deal with many different laptops.
+</id>
+</rev>
+</page>
+
+
+<page>
+<title>Nikon D3200 24.2 MP CMOS Digital SLR Camera (Black) With 18-55 Dx VR Lens </title>
+<mpn></mpn>
+<spec>
+Manufacturer	Nikon Corporation
+Manufacturer Part Number	25492
+Manufacturer Website Address	http://www.nikon.com
+Brand Name	Nikon
+Product Model	D3200
+Product Name	D3200 Digital SLR Camera
+Product Type	Digital SLR Camera
+Display & Graphics
+Screen Size	3"
+Display Screen Type	LCD
+Touchscreen	No
+Display Resolution	921000 Pixel
+Effective Camera Resolution	24.2 Megapixel
+Total Camera Resolution	24.7 Megapixel
+Image Sensor Size	0.91" x 0.61"
+Image Sensor Type	CMOS
+White Balance Modes
+
+    Auto
+    Cloudy
+    Direct Sunlight
+    Flash
+    Fluorescent (7 types)
+    Incandescent
+    Preset Manual
+    Shade
+
+Image
+Aspect Ratio	3:2
+Image Formats	JPEG
+Image Formats	RAW
+Maximum Image Resolution	6016 x 4000
+Video
+Video Formats	MOV
+Video Formats	MPEG-4 AVC
+Maximum Video Resolution	1920 x 1080
+HD Movie Mode	Yes
+Maximum Frame Rate	60 fps
+Lens
+Optical Zoom	3.1x
+Digital Zoom	No
+Focal Length	18 mm to 55 mm (Lens 1)
+Lens Construction	11 Elements in 8 Groups
+Aperture Range	f/3.5 to 5.6
+Image Stabilization	Optical
+Autofocus Points	11
+Focus Modes	Auto
+Focus Modes	Manual
+Minimum Focus Distance	11.02"
+Lens Mount Type	Nikon F
+Exposure
+Shortest Shutter Speed	1/4000 Second
+Longest Shutter Speed	30 Second
+ISO Sensitivity	Auto
+ISO Sensitivity	ISO 100
+ISO Sensitivity	ISO 200
+ISO Sensitivity	ISO 400
+ISO Sensitivity	ISO 800
+ISO Sensitivity	ISO 1600
+ISO Sensitivity	ISO 3200
+ISO Sensitivity	ISO 6400
+ISO Sensitivity	ISO 12800
+Exposure Control
+
+    Program AE
+    Shutter Priority AE
+    Aperture Priority AE
+    Manual
+
+Flash
+Flash Modes	Auto Flash
+Flash Modes	Front Curtain Sync
+Flash Modes	Rear Curtain Sync
+Flash Modes	Red-eye Reduction
+Flash Modes	Slow Sync
+Flash Modes	Wireless Flash
+External Flash	Optional
+Built-in Flash	Yes
+Viewfinder
+Viewfinder Type	SLR
+Minimum Diopter Adjustment	-1.7
+Maximum Diopter Adjustment	0.5
+Memory
+Memory Card Supported	Secure Digital (SD) Card
+Memory Card Supported	Secure Digital Extended Capacity (SDXC)
+Memory Card Supported	Secure Digital Extended Capacity (SDXC UHS-I)
+Memory Card Supported	Secure Digital High Capacity (SDHC) Card
+Memory Card Supported	Eye-Fi Card
+Controls/Indicators
+Camera Modes
+
+Scene Modes
+
+    Auto
+    Auto [Flash Off]
+    Child
+    Close-up
+    Landscape
+    Night Portrait
+    Portrait
+    Sports
+
+Interfaces/Ports
+USB	Yes
+HDMI	Yes
+PictBridge	Yes
+Analog Video Out	Yes
+Built-in Devices
+Built-in Devices	Microphone
+Built-in Devices	Speaker
+Software
+Software Included
+
+NikonView NX
+Battery Information
+Number of Batteries Supported	1
+Battery Size Supported	Proprietary Battery Size
+Battery Model Supported	EN-EL14
+Battery Built-in	No
+Battery Included	Yes
+Battery Rechargeable	Yes
+Battery Life	540 Shot
+Battery Chemistry	Lithium Ion (Li-Ion)
+Physical Characteristics
+Color	Black
+Camera Assembly	Body with Lens Kit
+Height	3.8"
+Width	5.0"
+Depth	3.1"
+Weight (Approximate)	1.00 lb
+Miscellaneous
+Package Contents
+
+    D3200 Digital SLR Camera
+    AF-S DX NIKKOR 18-55mm f/3.5-5.6G VR Lens
+    EN-EL14 Rechargeable Li-ion Battery
+    MH-24 Quick Charger
+    EG-CP14 Audio/Video Cable
+    UC-E6 USB Cable
+    DK-20 Rubber Eyecup
+    AN-DC3 Camera Strap
+    DK-5 Eyepiece Cap
+    BF-1B Body Cap
+    BS-1 Accessory Shoe Cover
+    NikonView NX CD-ROM
+
+Features	External Flash Shoe
+Features	Live View
+Features	Orientation Sensor
+Features	Continuous Shooting Mode
+Features	Self-timer
+Certifications & Standards
+
+    FCC
+    ICES-003
+
+Language Supported	Arabic
+Language Supported	Brazilian (Portuguese)
+Language Supported	Chinese (Simplified and Traditional)
+Language Supported	Czech
+Language Supported	Danish
+Language Supported	Dutch
+Language Supported	English
+Language Supported	Finnish
+Language Supported	French
+Language Supported	German
+Language Supported	Greek
+Language Supported	Hindi
+Language Supported	Hungarian
+Language Supported	Indonesian
+Language Supported	Italian
+Language Supported	Japanese
+Language Supported	Korean
+Language Supported	Norwegian
+Language Supported	Polish
+Language Supported	Portuguese
+Language Supported	Romanian
+Language Supported	Russian
+Language Supported	Spanish
+Language Supported	Swedish
+Language Supported	Thai
+Language Supported	Turkish
+Language Supported	Ukrainian
+Platform Supported	PC
+Platform Supported	Mac
+Green Compliant	Yes
+Green Compliance Certificate/Authority	RoHS
+Green Compliance Certificate/Authority	WEEE
+Warranty
+Limited Warranty	1 Year
+</spec>
+<rev>
+<id>
+1
+</id>
+<id>
+2
+</id>
+</rev>
+</page>
+<page>
+<title>Nikon D3200 24.2 MP CMOS Digital SLR with 18-55mm f/3.5-5.6 AF-S DX VR NIKKOR Zoom Lens (Black)</title>
+<mpn>K38074US</mpn>
+<spec>
+
+Camera Type
+DSLR
+Megapixels
+24.2MP
+Lcd Screen Size
+3in.
+Memory Type
+SD/SDHC/SDXC Card
+Viewfinder Type
+SLR
+Battery Chemistry
+Lithium Ion (Li-Ion)
+Lens Construction
+11 Elements in 8 Groups
+Language Supported
+Danish, Ukrainian, French, Finnish, Hungarian, Chinese (Simplified and Traditional), Korean, Hindi, Russian, Czech, Indonesian, Brazilian (Portuguese), Italian, Japanese, Spanish, English, Dutch, Norwegian, Turkish, Arabic, Portuguese, Greek, Polish, Thai, Romanian, German, Swedish
+Optical Zoom
+3.1x
+Battery Included
+Yes
+Green Compliant
+Yes
+External Flash
+Optional
+Camera Modes
+Scene Modes Auto Auto [Flash Off] Child Close-up Landscape Night Portrait Portrait Sports
+Focal Length
+18 mm to 55 mm (Lens 1)
+Battery Rechargeable
+Yes
+Total Camera Resolution
+24.7 Megapixel
+Manufacturer Part Number
+25492
+Green Compliance Certificate/authority
+RoHS, WEEE
+Battery Life
+540 Shot
+Color
+Black
+Brand Name
+Nikon
+Hdmi
+Yes
+Number Of Batteries Supported
+1
+Minimum Diopter Adjustment
+-1.7
+Maximum Video Resolution
+1920 x 1080
+Image Sensor Size
+0.91" x 0.61"
+Aperture Range
+f/3.5 to 5.6
+Hd Movie Mode
+Yes
+Weight (approximate)
+1.00 lb
+Lens Mount Type
+Nikon F
+Effective Camera Resolution
+24.2 Megapixel
+Certifications & Standards
+FCC ICES-003
+Built-In Devices
+Microphone, Speaker
+Maximum Frame Rate
+60 fps
+Product Type
+Digital SLR Camera
+Flash Modes
+Slow Sync, Rear Curtain Sync, Wireless Flash, Red-eye Reduction, Auto Flash, Front Curtain Sync
+Analog Video Out
+Yes
+Longest Shutter Speed
+30 Second
+Features
+External Flash Shoe, Live View, Orientation Sensor, Self-timer, Serial Shot Mode
+Height
+3.8"
+White Balance Modes | Auto Cloudy Direct Sunlight Flash Fluorescent (7 types) Incandescent Preset Manual Shade
+Aspect Ratio | 3:2
+Battery Built-In | No
+Video Formats | MPEG-4 AVC, MOV
+Exposure Control | Program AE Shutter Priority AE Aperture Priority AE Manual
+Display Resolution |921000 Pixel
+Software Included | NikonView NX
+Screen Size | 3"
+Depth | 3.1"
+Image Formats | RAW, JPEG
+Shortest Shutter Speed | 1/4000 Second
+Iso Sensitivity | ISO 6400, Auto, ISO 800, ISO 12800, ISO 200, ISO 3200, ISO 1600, ISO 100, ISO 400
+Autofocus Points | 11
+Maximum Diopter Adjustment | 0.5
+Pictbridge | Yes
+Focus Modes | Manual, Auto
+Minimum Focus Distance | 11"
+Battery Model Supported | EN-EL14
+Product Model | D3200
+Package Contents | D3200 Digital SLR Camera AF-S DX NIKKOR 18-55mm f/3.5-5.6G VR Lens EN-EL14 Rechargeable Li-ion Battery MH-24 Quick Charger EG-CP14 Audio/Video Cable UC-E6 USB Cable DK-20 Rubber Eyecup AN-DC3 Camera Strap DK-5 Eyepiece Cap BF-1B Body Cap BS-1 Accessory Shoe Cover NikonView NX CD-ROM
+Width | 5.0"
+Touchscreen | No
+Image Sensor Type | CMOS
+Battery Size Supported | Proprietary Battery Size
+Memory Card Supported | Secure Digital High Capacity (SDHC) Card, Eye-Fi Card, Secure Digital (SD) Card, Secure Digital Extended Capacity (SDXC), Secure Digital Extended Capacity (SDXC UHS-I)
+Camera Assembly | Body with Lens Kit
+Usb | Yes
+Digital Zoom | No
+Standard Warranty|1 Year Limited
+Platform Supported|Mac, PC
+Maximum Image Resolution |  6016 x 4000
+Display Screen Type | LCD
+Built-In Flas | Yes
+Image Stabilization |Optical
+UPC |018208254927
+</spec>
+<rev>
+<id>
+Excellent for support department My people were losing their notebook chargers as fast as they lose their smartphone chargers. It was getting pricey to continue to replace them with original manufacturer chargers (HP &amp; Lenovo). This charger is half the price, but just as good. It works with all the notebooks we have at our site. I highly recommend.
+</id>
+<id>
+Excellent for support department Im the support guy for our small company and having many different types of laptops means different types of power adapters for those machines. This one is very good. Works with all our machines, Fujitsu, Toshiba, HP, & Dell. Really an essential for a support department having to deal with many different laptops.
+</id>
+</rev>
+</page>
+
+<page>
+<title>Nikon D3200 review (with 18-55mm VR lens, Black) </title>
+<mpn>K38074US</mpn>
+<spec>
+
+
+    Manufacturer: Nikon
+    Part Number:NikonD3200
+
+General
+
+    Packaged Quantity 1
+    Product Type Digital camera ,
+    - SLR with Live View mode ,
+    with Movie recording
+    Enclosure Color Black
+    Resolution 24.2 megapixels
+    Optical Sensor Type CMOS
+    Total Pixels 24,700,000 pixels
+    Effective Sensor Resolution 24,200,000 pixels
+    Optical Sensor Size 15.4 x 23.2mm
+    Field of View Crop Factor 1.5
+    Sensor Dust Reduction Yes
+    Sensor Features Self Cleaning Sensor Unit,
+    Airflow Control System
+    Optical Zoom 3 x
+    Image Processor EXPEED 3
+    Image Stabilizer Optical
+    Auto Focus TTL contrast and phase detection
+    Auto Focus Points (Zones) Qty 11
+    AE/AF Control Subject-tracking AF,
+    3D-tracking AF,
+    Face-priority AF
+    Face Detection Face-priority AF function,
+    Face zoom,
+    Face Detection AF/AE/FE/WB
+    Digital Video Format MOV,
+    H.264
+    Image Recording Format JPEG,
+    NEF (RAW),
+    RAW + JPEG
+    Max Video Resolution 1920 x 1080
+    AV Interfaces HDMI,
+    Composite video/audio
+
+Exposure & White Balance
+
+    Light Sensitivity ISO 100-6400,
+    ISO 12800,
+    ISO auto
+    Exposure Metering 3D color matrix II,
+    Center-weighted,
+    Spot
+    Exposure Metering Zones 420
+    Exposure Modes Program,
+    Bulb,
+    Automatic,
+    Shutter-priority,
+    Manual,
+    Aperture-priority
+    Shooting Programs Sports mode,
+    Night portrait,
+    Close-up,
+    Children,
+    Portrait mode,
+    Landscape
+    Special Effects Portrait,
+    Landscape,
+    Vivid,
+    Neutral,
+    Monochrome
+    White Balance Automatic,
+    Presets,
+    Custom
+    White Balance Presets Sunlight,
+    Shade,
+    Fluorescent,
+    Incandescent,
+    Cloudy,
+    Flash
+    Max Shutter Speed 1/4000 sec
+    Min Shutter Speed 30 sec
+    Exposure Compensation ±5 EV range, in 1/3 EV steps
+    X-sync Speed 1/200 sec
+    Exposure Range EV 0-20 ( ISO 100 )
+
+Lens System
+
+    Type 3 x x Zoom lens - 18 mm - 55 mm - F/3.5-5.6 G Nikon AF-S DX VR
+    Focal Length Equivalent to 35mm Camera 27 - 82.5 mm
+    Focus Adjustment Manual,
+    Automatic
+    Min Focus Range 11 in
+    Max View Angle 76 degrees
+    Zoom Adjustment Manual
+    Lens Construction 8 groups / 11 elements
+    Filter Size 52 mm
+    Lens System Mounting Nikon F
+    Features Aspherical lens,
+    Silent Wave Motor (SWM)
+
+Camera Flash
+
+    Camera Flash Pop-up flash
+    Guide Number (m / ISO 100) 12
+    Flash Modes Rear curtain sync,
+    Fill-in mode,
+    Slow synchro,
+    Auto mode,
+    Flash OFF mode,
+    Red-eye reduction
+    Features Wireless off-camera control,
+    Flash +/- compensation,
+    AF illuminator
+
+Additional Features
+
+    Continuous Shooting Speed 4 frames per second
+    Self Timer Delay 2 sec,
+    10 sec,
+    5 sec,
+    20 sec
+    Flash Terminal Hot shoe
+    Additional Features Digital image rotation,
+    Display brightness control,
+    In-camera red-eye removal,
+    Eye-Fi Card Ready,
+    Cropping an image,
+    In-camera RAW processing,
+    Date/time stamp,
+    Exif Print support,
+    AF lock,
+    Wi-Fi ready,
+    Active D-Lighting technology,
+    DPOF support,
+    GPS ready,
+    Face detection,
+    AE lock,
+    Histogram display,
+    Scene Recognition System (SRS),
+    Highlight point display,
+    Camera orientation detection,
+    LCD live view mode,
+    PictBridge support,
+    Built-in help guide,
+    1080p Full HD movie recording,
+    USB 2.0 compatibility,
+    Direct print
+
+Viewfinder
+
+    Viewfinder Type Optical - Eye-level penta-dach mirror
+    Field Coverage 95%
+    Magnification 0.8x
+    Dioptric Correction Range -1.7 to +0.5
+
+Display
+
+    Type 3 in LCD display
+    Display Features Built-in
+
+Microphone
+
+    Microphone Operation Mode Mono
+    Microphone Features Sensitivity control
+
+Connections
+
+    Connector Type 1 x Hi-Speed USB,
+    1 x HDMI output,
+    1 x Composite video/audio output,
+    1 x Microphone ( Mini-phone stereo 3.5 mm ),
+    1 x Remote control
+
+Software
+
+    Software Nikon ViewNX 2
+
+System Requirements for PC Connection
+
+    Peripheral Devices USB port,
+    CD-ROM drive
+
+Miscellaneous
+
+    Microsoft Certifications Compatible with Windows 7
+    Included Accessories Battery charger,
+    Eyepiece cover,
+    USB cable,
+    Lens cap,
+    Eyecup,
+    Dust cap,
+    Body cap,
+    Neck strap,
+    Shoe cap,
+    Audio / video cable
+
+Battery
+
+    Supported Battery Nikon EN-EL14
+    Supported Battery 1 x Li-ion rechargeable battery ( Included )
+    Battery Life Details Photo shooting
+
+Memory / Storage
+
+    Memory Card Slot SD card
+    Supported Memory Cards SDHC Memory Card,
+    SD Memory Card,
+    SDXC Memory Card,
+    SDXC UHS-I Memory Card,
+    SDHC UHS-I Memory Card
+    Image Storage 6016 x 4000,
+    4512 x 3000,
+    3008 x 2000
+    Video Capture H.264 - 1920 x 1080,
+    H.264 - 1920 x 1080,
+    H.264 - 1920 x 1080,
+    H.264 - 1280 x 720,
+    H.264 - 1280 x 720,
+    H.264 - 640 x 424,
+    H.264 - 640 x 424
+
+Dimensions & Weight
+
+    Width 4.9 in
+    Depth 3 in
+    Height 3.8 in
+    Weight 16 oz
+
+Environmental Parameters
+
+    Min Operating Temperature 32 °F
+    Max Operating Temperature 104 °F
+    Humidity Range Operating 0 - 85% (non-condensing)
+</spec>
+<rev>
+<id></id>
+<id></id>
+</rev>
+</page>
+
+
+<page>
+<title>Nikon D3300 (with 18-55mm II lens, Black)</title>
+<spec>
+
+
+    Manufacturer: Nikon
+    Part Number:1532
+
+General
+
+    Optical Sensor Type CMOS
+    Image Stabilizer Optical
+
+Camera Flash
+
+    Camera Flash Built-in flash
+
+Display
+
+    Display Features Built-in
+</spec>
+<rev>
+<mpn></mpn>
+<id></id>
+<id></id>
+</rev>
+</page>
+
+<page>
+<title>Nikon D3200 24.2MP Digital SLR Camera with 18-55mm VR Lens Black (25492)</title>
+<spec>
+
+    Product Width :	3.800
+    Macro Telephoto Lens Focus Range : 0.9' to Infinity
+    Normal Wide Angle Lens Focus Range : 0.9' to Infinity
+    Warranty Description :	1 Year Limited Manufacturer Warranty
+    Still Shot Modes :	Sports Photography, Portrait, Macro, Landscape, Child, Auto, Back Light
+    Operational Modes :	Movie Mode, Guide Mode, Manual Override, Live View, Scene Selection Modes, PASMC Modes, Exposure Bracketing, Continuous Shooting Burst
+    Optical Zoom : 3.000
+    Required Not Included :	SD Memory Card
+    Output Type :	USB 2.0, Mini HDMI, A/V
+    Playback Modes :	Movie With Sound, Zoom Playback, Thumbnail Display, Slide-Show, Automatic Playback
+    Features Electronic Display :	VGA Resolution, Graphical User Interface, Easy-to-Read Menu System, Color TFT-LCD Screen, Wide-Angle View
+    Protective Qualities :	Dust Removal System
+    Normal Telephoto Lens Focus Range : 0.9' to Infinity
+    Maximum Flash Distance :	39.000
+    CPSC Choking Hazard Warnings :	no_warning_applicable
+    Photo Effects :	Manual, Auto, Aperture-Priority
+    White Balance Modes : Incandescent, Fluorescent, Cloudy, Auto
+    Number of Screen Modes :	6
+    View Finder Type :	Optical and LCD
+    Media Card Compatibility :	Secure Digital Extended Capacity (SDXC) Card, Secure Digital High Capacity (SDHC) Card, Secure Digital (SD) Card
+    Video Modes :	HD-Quality Movie Recording, Movie
+    Accessories Included: Electronics Product :	Owner's Manual, A/V Cable, Software CD ROM, USB Cable, Rechargeable Batteries, Neck Strap, Body Cap, Battery Charger
+    Megapixels : 24.200
+    Macro Wide Angle Lens Focus Range : 0.9' to Infinity
+    Computer Platform Compatibility :	PC, Mac
+    Features Camera :	1080p HD Movie Recording, Automatic Image Sensor Cleaning, Auto Scene Selector, Mode Selection Dial, D-Lighting
+    Camera Lens Compatibility :	Nikon F-Mount Lenses
+    Image Sensor Type : CMOS Sensor
+    Image Resolution : Up to 6016 x 4000
+    Features Image Editing :	Selective Color, Image Rotation, Monochrome Effects, Image Resizing, Image Overlay, Image Cropping, Fish Eye, Miniature
+    ISO Equivalent : 100 - 6400, Auto
+    Visual Playback File Format :	RAW, MPEG 4, MOV, JPEG, H.264/AVC
+    Features Camera Flash :	Slow-Sync Flash, Red-Eye Reduction, Rear-Curtain Sync, Flash Cancel, Fill-In Flash, Pop-Up Flash
+    Product Thickness :	5.000
+    Shutter Speeds :	30 - 1/4000 sec.
+    Features Camera Lens :	Wide Angle, Glass Lens, Silent Wave Motor, Seamless Zoom, Rapid Autofocus, Manual Focus, Auto Focus, Contrast-Detect AF
+    Product Height :	3.100
+    Product Weight :	16.000
+    Display Indicators :	Shooting Mode, Shutter Speed, Number of Pictures Remaining, ISO Setting, Focus Indicator, Flash Mode, Battery Level, Aperture Setting
+    Display Size :	3.000
+    Software Included :	Nikon View NX2
+    Top Continuous Shooting Speed :	4 fps
+    Battery Life - Shots Per Charge (CIPA) :	540
+    Power Source :	Battery-powered
+    DSLR cameras are fast-focusing, allow you to take multiple photos quickly, and compose sharp images in nearly any light. With a precision viewfinder and image sensors that are more than 8X larger than smartphone sensors, DSLR cameras let you take pictures that are more detailed and stay sharp when resized. DSLRs also allow you to record crisp HD video, even in low light, so you wont miss a moment of your childs first music recital. If you tell stories with motion capture, the large image sensors let you record movies with a wide selection of interchangeable lenses for beautiful diffused backgrounds - all at the push of a button.
+
+    Megapixels: 24.2 Megapixels
+    Sensor Type: CMOS Sensor
+    Zoom: 3.0 X Optical
+    Camera Features: Mode Selection Dial, 1080p HD Movie Recording, D-Lighting, Auto Scene Selector, Automatic Image Sensor Cleaning
+    Flash Features: Slow-Sync Flash, Red-Eye Reduction, Pop-Up Flash, Flash Cancel, Rear-Curtain Sync, Fill-In Flash
+    Lens Features: Silent Wave Motor, Glass Lens, Seamless Zoom, Rapid Autofocus, Manual Focus, Wide Angle, Contrast-Detect AF, Auto Focus
+    Display Size: 3.0 "
+    ISO Equivalent: Auto, 100 - 6400
+    Weight: 16.0 Oz.
+    Warranty: 1 Year Limited Manufacturer Warranty
+
+</spec>
+<rev>
+<mpn></mpn>
+<id></id>
+<id></id>
+</rev>
+</page>
+
+<page>
+<title>Nikon D3200 24.2MP Digital SLR Camera with 18-55mm VR Lens Red (25496)</title>
+<spec>
+
+    Product Width :	3.800
+    Macro Telephoto Lens Focus Range : 0.9' to Infinity
+    Normal Wide Angle Lens Focus Range : 0.9' to Infinity
+    Warranty Description :	1 Year Limited Manufacturer Warranty
+    Still Shot Modes :	Sports Photography, Portrait, Macro, Landscape, Child, Back Light, Auto
+    Operational Modes :	Continuous Shooting Burst, Exposure Bracketing, PASMC Modes, Scene Selection Modes, Movie Mode, Live View, Manual Override, Guide Mode
+    Optical Zoom : 3.000
+    Required Not Included :	SD Memory Card
+    Output Type :	A/V, Mini HDMI, USB 2.0
+    Playback Modes :	Movie With Sound, Zoom Playback, Thumbnail Display, Slide-Show, Automatic Playback
+    Features Electronic Display :	Color TFT-LCD Screen, Easy-to-Read Menu System, Graphical User Interface, VGA Resolution, Wide-Angle View
+    Protective Qualities :	Dust Removal System
+    Normal Telephoto Lens Focus Range : 0.9' to Infinity
+    Maximum Flash Distance :	39.000
+    CPSC Choking Hazard Warnings :	no_warning_applicable
+    Photo Effects :	Manual, Auto, Aperture-Priority
+    White Balance Modes : Auto, Incandescent, Fluorescent, Cloudy
+    Number of Screen Modes :	6
+    View Finder Type :	Optical and LCD
+    Media Card Compatibility :	Secure Digital Extended Capacity (SDXC) Card, Secure Digital High Capacity (SDHC) Card, Secure Digital (SD) Card
+    Video Modes :	HD-Quality Movie Recording, Movie
+    Accessories Included: Electronics Product :	Owner's Manual, A/V Cable, Software CD ROM, USB Cable, Rechargeable Batteries, Neck Strap, Body Cap, Battery Charger
+    Megapixels : 24.200
+    Macro Wide Angle Lens Focus Range : 0.9' to Infinity
+    Computer Platform Compatibility :	PC, Mac
+    Features Camera :	D-Lighting, Mode Selection Dial, Auto Scene Selector, 1080p HD Movie Recording, Automatic Image Sensor Cleaning
+    Camera Lens Compatibility :	Nikon F-Mount Lenses
+    Image Sensor Type : CMOS Sensor
+    Image Resolution : Up to 6016 x 4000
+    Features Image Editing :	Image Overlay, Image Cropping, Fish Eye, Miniature, Monochrome Effects, Image Rotation, Selective Color, Image Resizing
+    ISO Equivalent : Auto, 100 - 6400
+    Visual Playback File Format :	H.264/AVC, JPEG, MOV, MPEG 4, RAW
+    Features Camera Flash :	Pop-Up Flash, Fill-In Flash, Flash Cancel, Rear-Curtain Sync, Red-Eye Reduction, Slow-Sync Flash
+    Product Thickness :	5.000
+    Shutter Speeds :	30 - 1/4000 sec.
+    Features Camera Lens :	Contrast-Detect AF, Auto Focus, Manual Focus, Rapid Autofocus, Seamless Zoom, Silent Wave Motor, Glass Lens, Wide Angle
+    Product Height :	3.100
+    Product Weight :	16.000
+    Display Indicators :	Aperture Setting, Battery Level, Flash Mode, Focus Indicator, ISO Setting, Number of Pictures Remaining, Shooting Mode, Shutter Speed
+    Display Size :	3.000
+    Software Included :	Nikon View NX2
+    Top Continuous Shooting Speed :	4 fps
+    Battery Life - Shots Per Charge (CIPA) :	540
+    Power Source :	Battery-powered
+
+</spec>
+<mpn></mpn>
+<rev>
+<id></id>
+<id></id>
+</rev>
+</page>
+
+<page>
+<title>
+Black & Decker Dewalt (DWTD26451K) HEAVY-DUTY 5" Random Orbit Sander KIT
+</title>
+<mpn></mpn>
+<spec>
+Handle, Dust Collector, Tool, Dust Bag, Chair, Belt
+Flooring, Running, Dustless, Flat Surfaces, Rigid
+D26451K, d26451k, D26451K-VTB
+</spec>
+<rev>
+<id></id>
+<id></id>
+</rev>
+</page>
