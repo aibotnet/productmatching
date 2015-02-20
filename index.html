@@ -1,1 +1,4194 @@
-Hello World
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+    <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+ <script type='text/javascript'>//<![CDATA[
+  var curl = window.location.href;if (curl.indexOf('m=1') != -1) {curl = curl.replace('m=1', 'm=0');window.location.href = curl;}
+ //]]></script>
+    <b:include data='blog' name='all-head-content'/>
+ <title>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+   <data:blog.pageTitle/>
+  <b:else/>
+   <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+    <data:blog.pageName/> | <data:blog.title/>
+   <b:else/>
+    404 | <data:blog.title/> 
+   </b:if>
+  </b:if>
+    </title>
+ <b:if cond='data:blog.metaDescription == &quot;&quot;'>
+  <!-- Blank description -->
+ <b:else/>
+  <meta expr:content='data:blog.metaDescription' itemprop='description'/>   
+ </b:if> 
+ 
+<b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:      FameMag
+By:   Tien Nguyen
+URL:      www.bloggeritems.com
+----------------------------------------------- */
+/* Variable definitions
+   ====================
+<Variable name="maincolor" description="Main Color" type="color" default="#ff6d01" value="#ff6d01"/>
+
+*/
+
+.widget, .section {
+ margin: 0;
+}
+.hide {display:none}
+.separator a {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+div.sd-box {
+ border-top: 1px solid #ddd;
+ border-top: 1px solid rgba(0,0,0,.13);
+}
+
+h3.sd-title {
+ font-size: 12px;
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ margin: 3px 0;
+ padding: 0;
+ text-transform: none;
+ letter-spacing: 0;
+ line-height: 1;
+ font-weight: bold;
+ width: 15.625%; /* 100px / 640px */ float: left;
+ position: static;
+ background: none;
+ border: none;
+}
+
+.rtl .sd-title {
+ float: right;
+ text-align: right;
+}
+
+/* Like Special cases (display on it's own) */
+
+div.sharedaddy.sd-like-enabled .sd-like h3 {
+ display: none;
+}
+
+div.sharedaddy.sd-like-enabled .sd-like .post-likes-widget {
+ width: 100%;
+ float: none;
+}
+
+div.sharedaddy.sd-rating-enabled .sd-like .post-likes-widget, div.sharedaddy.sd-sharing-enabled .sd-like .post-likes-widget {
+ width: 82.125%;
+ float: right;
+}
+
+div.sharedaddy.sd-rating-enabled .sd-like h3, div.sharedaddy.sd-sharing-enabled .sd-like h3 {
+ display: block;
+}
+
+.comment-likes-widget {
+ width: 100%;
+}
+#demosite-activate-wrap, #demosite-activate-wrap * {
+ *zoom: 1;
+}
+/*
+ * Set up Open Sans
+ */
+#demosite-activate-wrap,
+#demosite-activate-wrap input,
+#demosite-activate-wrap h3,
+#activate-on-blog {
+ font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif !important;
+}
+/*
+ * The main bar
+ */
+#demosite-activate-wrap {
+ background-color: #fff;
+ font-size: 14px;
+ font-weight: normal !important;
+ height: 80px;
+ line-height: 1;
+ padding: 0;
+ z-index: 99998;
+ text-align: center !important;
+}
+#demosite-activate-wrap.demosite-full-width {
+ text-align: center !important;
+}
+#demosite-activate-wrap,
+#demosite-activate {
+ box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.3 ), 0 1px 3px rgba( 0, 0, 0, 0.2 );
+}
+#demosite-activate-wrap a {
+ font-weight: normal;
+}
+/*
+ * Centered wrapper
+ */
+.demosite-header {
+ max-width: 1000px;
+ margin: 8px auto 0!important;
+ height: 60px;
+}
+/*
+ * The main header title
+ */
+.demosite-tagline {
+ color: #8b8b8b;
+ display: inline-block;
+ font-size: 20px;
+ margin: 0;
+}
+.demosite-activate {
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+ width: 100%;
+ z-index: 999999;
+}
+.demosite-logged-in { /* Move the activate bar below the admin bar */
+ top: 27px !important;
+}
+/*
+ * Main button
+ */
+#demosite-activate-wrap .demosite-activate-trigger {
+ background: #2ea2cc;
+ border-radius: 2px;
+ color: #fff;
+ display: inline-block;
+ font-size: 18px;
+ font-weight: 400;
+ margin-left: 40px;
+ margin-top: 0;
+ padding: 10px 30px;
+ text-align: center;
+ text-decoration: none !important;
+ width: 150px!important;
+ border:none;
+}
+#demosite-activate-wrap .demosite-activate-trigger:hover {
+ background: #0074a2;
+ color: #fff;
+}
+/* Open status */
+#demosite-activate-wrap .demosite-activate-trigger.open,
+#demosite-activate-wrap .demosite-activate-trigger:active {
+ background: #555;
+}
+.FollowByEmail table {
+    margin: 0;
+}
+
+
+/*
+ * Secondary blue container
+ */
+#demosite-activate {
+ background: #1e8cbe;
+ color: #fff;
+ display: none;
+ margin-top: 0;
+ padding: 0;
+ width: 100%;
+}
+#demosite-activate.open {
+ box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+/*
+ * The two options for logged in users
+ */
+#demosite-activate .loggedin-activate,
+#demosite-activate .loggedin-signup {
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ float: left;
+ padding-right: 40px;
+ width: 50%;
+}
+#demosite-activate div {
+ overflow: hidden;
+}
+#demosite-activate .loggedin-signup {
+ border-left: 2px solid rgba( 255, 255, 255, 0.2 );
+ padding-left: 45px;
+}
+/*
+ * Secondary titles
+ */
+#demosite-activate h3 {
+ color: #fff;
+ font-size: 18px;
+ font-weight: 300;
+ margin: 0 0 .5em 0 !important;
+ text-align: center;
+ text-transform: none;
+ text-shadow: 0 1px 0 #333;
+}
+#demosite-activate p {
+ color: #fff;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 1.5;
+ margin: 0 0 1em 0;
+ text-align: left;
+ text-shadow: 0 1px 0 #666;
+}
+/*
+ * Buttons on blue secondary bar for logged in users
+ */
+#demosite-activate #activate-button,
+#demosite-activate .loggedin-new-blog {
+ background: #005684;
+ border: none;
+ border-radius: 2px;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 16px;
+ font-weight: normal;
+ line-height: 1;
+ margin: 1em auto;
+ padding: 10px 25px;
+ text-decoration: none;
+}
+#demosite-activate #activate-button:hover,
+#demosite-activate .loggedin-new-blog:hover {
+ background: #0074a2;
+ color: #fff !important;
+}
+#demosite-activate #activate-button {
+ margin-left: 20px;
+}
+#demosite-activate.open {
+ display: block;
+}
+#activate-button {
+ text-align: center;
+}
+/* The text and form inside the drop-down activate box */
+#activate-theme {
+ float: none;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 30px 0;
+ max-width: 1000px;
+}
+#activate-on-blog {
+ border: none;
+ color: #000;
+ float: none;
+ font-size: 13px;
+ height: auto;
+ max-width: 99%;
+ transition: none;
+ width: 40%;
+}
+.activate-description .theme-name {
+ font-weight: 700;
+}
+
+@media (max-width: 800px) {
+ .demosite-premium .demosite-tagline {
+  font-size: 16px;
+ }
+ #demosite-activate-wrap.demosite-premium .demosite-activate-trigger {
+  font-size: 16px;
+ }
+}
+
+@media (max-width: 782px) {
+ .demosite-logged-in { /* Move the activate bar below the admin bar */
+  top: 45px !important;
+ }
+}
+
+@media (max-width: 700px ) {
+ .demosite-tagline {
+  font-size: 16px;
+ }
+ #demosite-activate-wrap .demosite-activate-trigger {
+  margin-left: 30px;
+ }
+ .demosite-premium .demosite-header {
+  margin: 14px 0 0;
+  height: 86px;
+ }
+ .demosite-premium .demosite-tagline {
+  font-size: 18px;
+  margin: 0 0 15px;
+ }
+ #demosite-activate-wrap.demosite-premium .demosite-activate-trigger {
+  margin-left: 0;
+  width: 80%;
+ }
+}
+@media (max-width: 620px) {
+ .demosite-header {
+  margin: 14px 0 0;
+  height: 86px;
+ }
+ .demosite-tagline {
+  font-size: 18px;
+  margin: 0 0 15px;
+ }
+ #demosite-activate-wrap .demosite-activate-trigger {
+  margin-left: 0;
+  width: 80%;
+ }
+ #activate-theme {
+  width: 90%;
+ }
+ #demosite-activate p {
+  font-size: 13px;
+ }
+ .activate-form {
+  padding-top: 0.8em;
+ }
+ #demosite-activate #activate-button,
+ #demosite-activate .loggedin-new-blog {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 13px;
+ }
+ #activate-on-blog {
+  width: auto;
+ }
+}
+@media (max-width: 520px) {
+ .demosite-tagline,
+ .demosite-premium .demosite-tagline {
+  font-size: 16px;
+ }
+ #demosite-activate-wrap .demosite-activate-trigger {
+  border-radius: 0;
+  -moz-box-sizing: border-box;
+  box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.3 ), 0 1px 3px rgba( 0, 0, 0, 0.2 );
+  box-sizing: border-box;
+  width: 100%;
+ }
+ #activate-theme {
+  width: 95%;
+ }
+ #featured .flexslider .slides > li a:first-child {
+  height: 110px;
+ }
+ #logo {
+  float: none!important;
+ }
+ #logo * {
+  text-align: center!important;
+ }
+ #logo #header-inner img {
+  margin: 20px auto!important;
+ }
+ #res-searchthis {
+  float: none!important;
+  margin: 0 auto!important;
+ }
+}/* =Infinity Styles
+-------------------------------------------------------------- */
+
+.infinite-wrap {
+ display: none!important;
+}
+.infinite-loader {
+ color: #000;
+ display: block;
+ height: 28px;
+ text-indent: -9999px;
+ display: none!important;
+}
+#infinite-handle {
+ display: none!important;
+}
+#infinite-handle span {
+ display: none!important;
+ 
+}
+#blog-pager a{
+ background: #333;
+ border-radius: 1px;
+ color: #eee;
+ cursor: pointer;
+ font-size: 13px;
+ padding: 10px 16px;
+ line-height: 50px;
+}
+
+.slideshow-window {
+ background-color: #222;
+ border: 20px solid #222;
+ border-radius: 11px;
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -khtml-border-radius: 11px;
+ margin-bottom: 20px;
+}
+
+.slideshow-window, .slideshow-window * {
+ -moz-box-sizing: content-box;
+ -webkit-box-sizing: content-box;
+ box-sizing: content-box;
+}
+
+.slideshow-loading {
+ height: 100%;
+ text-align: center;
+ margin: auto;
+}
+
+body div.slideshow-window * img {
+    /* Override any styles that might be present in the page stylesheet */
+    border-width: 0 !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    max-width: 100%;
+}
+
+.slideshow-loading img {
+ vertical-align: middle;
+}
+
+.slideshow-slide {
+ height: 100%;
+ width: 100%;
+ text-align: center;
+ margin: auto;
+ display: none;
+}
+
+.slideshow-slide img {
+ vertical-align: middle;
+}
+
+.slideshow-line-height-hack {
+ overflow: hide;
+ width: 0px;
+ font-size: 0px;
+}
+
+.slideshow-slide-caption {
+ font-size: 13px;
+ font-family: "Helvetica Neue", sans-serif;
+ color: #f7f7f7;
+ text-shadow: #222 1px 1px 2px;
+ line-height: 25px;
+ height: 25px;
+ position: absolute;
+ bottom: 5px;
+ left: 0;
+ z-index: 100;
+ width: 100%;
+ text-align: center;
+}
+
+/* @noflip */
+.slideshow-controls {
+ z-index: 1000;
+        position: absolute;
+        bottom: 30px;
+        margin: auto;
+ text-align: center;
+ width: 100%;
+ display: none;
+ direction:ltr;
+}
+
+body div div.slideshow-controls a,
+body div div.slideshow-controls a:hover {
+ border:2px solid rgba(255,255,255,0.1) !important;
+ background-color: #000 !important;
+ background-color: rgba(0,0,0,0.6) !important;
+ background-image: url(http://2.bp.blogspot.com/-lqfUkfhE8tE/Uedq9HTziVI/AAAAAAAAGI4/bK8ajdnr82g/s1600/slideshow-controls.png) !important;
+ background-repeat: no-repeat;
+ background-size: 142px 16px !important;
+ background-position: -34px 8px !important;
+ color: #222 !important;
+ margin: 0 5px !important;
+ padding: 0 !important;
+ display: inline-block !important;
+ *display: inline;
+ zoom: 1;
+ height: 32px !important;
+ width: 32px !important;
+ line-height: 32px !important;
+ text-align: center !important;
+ -khtml-border-radius: 10em !important;
+ -webkit-border-radius: 10em !important;
+ -moz-border-radius: 10em !important;
+ border-radius: 10em !important;
+ -webkit-transition: 300ms border-color ease-out;
+ -moz-transition: 300ms border-color ease-out;
+ -o-transition: 300ms border-color ease-out;
+ transition: 300ms border-color ease-out;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+ body div div.slideshow-controls a,
+ body div div.slideshow-controls a:hover {
+  background-image: url(http://2.bp.blogspot.com/-O3DNqs625WY/Uedq84pTnuI/AAAAAAAAGJQ/iBBPlXhb-80/s1600/slideshow-controls-2x.png) !important;
+ }
+}
+
+body div div.slideshow-controls a:hover {
+ border-color: rgba(255,255,255,1) !important;
+}
+
+body div div.slideshow-controls a:first-child { background-position: -76px 8px !important;}
+body div div.slideshow-controls a:last-child { background-position: -117px 8px !important;}
+body div div.slideshow-controls a:nth-child(2) { background-position: -34px 8px !important;}
+body div div.slideshow-controls a.running { background-position: -34px 8px !important;}
+body div div.slideshow-controls a.paused { background-position: 9px 8px !important;}
+
+.slideshow-controls a img {
+ border: 50px dotted fuchsia;
+}
+/* =Resets
+-------------------------------------------------------------- */
+
+div.sharedaddy ul,
+div.sharedaddy li {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ border: none;
+ background: none;
+}
+
+div.sharedaddy,
+#content div.sharedaddy,
+#main div.sharedaddy {
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ font-size: 12px;
+ clear: both;
+}
+
+div.sharedaddy,
+div.sharedaddy div {
+ -webkit-border-radius: 0 !important;
+ -moz-border-radius: 0 !important;
+ border-radius: 0 !important;
+}
+
+div.sharedaddy h3,
+#content div.sharedaddy h3,
+#main div.sharedaddy h3,
+#primary div.sharedaddy h3 {
+ font-size: 12px;
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ margin: 3px 0;
+ padding: 0;
+ text-transform: none;
+ letter-spacing: 0;
+ line-height: 1;
+ font-weight: bold;
+ width: 15.625%; /* 100px / 640px */ float: left;
+ position: static;
+ background: none;
+ border: none;
+}
+
+.rtl div.sharedaddy h3,
+.rtl #content div.sharedaddy h3,
+.rtl #main div.sharedaddy h3,
+.rtl #primary div.sharedaddy h3 {
+ float: right;
+ text-align: right;
+}
+
+div.sharedaddy ul,
+div.sharedaddy li {
+ margin: 0 !important;
+ padding: 0 !important;
+ text-indent: 0;
+}
+
+div.sharedaddy li::before {
+ content: "";
+}
+
+div.sharedaddy div.pd-rating {
+ margin: 0;
+ min-height: 23px;
+}
+
+div.sharedaddy a,
+div.sharedaddy a:link,
+div.sharedaddy a:visited {
+ font-style: normal;
+}
+
+/* ClearFix trick */
+
+div.sharedaddy:before,
+div.sharedaddy:after,
+div.sharedaddy .sd-block:before,
+div.sharedaddy .sd-block:after,
+div.sharedaddy ul:before,
+div.sharedaddy ul:after {
+ content: "\0020";
+ display: block;
+ height: 0;
+ overflow: hidden;
+}
+
+div.sharedaddy:after,
+div.sharedaddy .sd-block:after,
+div.sharedaddy ul:after {
+ clear: both;
+}
+
+div.sharedaddy,
+div.sharedaddy .sd-block,
+div.sharedaddy ul {
+ zoom: 1;
+}
+
+
+/* =Base Styles
+-------------------------------------------------------------- */
+.addthis_toolbox {
+    border-top: 1px solid rgba(0,0,0,.13);
+    padding: 20px 0;
+}
+
+
+
+/* Like Special cases (display on it's own) */
+
+div.sharedaddy.sd-like-enabled .sd-like h3 {
+ display: none;
+}
+
+div.sharedaddy.sd-like-enabled .sd-like div.sd-content {
+ width: 100%;
+ float: none;
+}
+
+div.sharedaddy.sd-rating-enabled .sd-like h3 {
+ display: block;
+}
+
+div.sharedaddy.sd-rating-enabled .sd-like div.sd-content {
+ width: 82.125%; /* 530px / 640px */
+ float: right;
+}
+
+div.sharedaddy.sd-sharing-enabled .sd-like h3 {
+ display: block;
+}
+
+div.sharedaddy.sd-sharing-enabled .sd-like div.sd-content {
+ width: 82.125%; /* 530px / 640px */
+ float: right;
+}
+
+.rtl div.sharedaddy.sd-rating-enabled .sd-like div.sd-content {
+ float: left
+}
+
+.rtl div.sharedaddy.sd-sharing-enabled .sd-like div.sd-content {
+ float: left
+}
+
+/* =Theme-specific fixes
+-------------------------------------------------------------- */
+
+/* Shelf */
+
+/* _reset.scss
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file.
+ * ------------------------------------------------------------------ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, .H5-article, aside, canvas, details, embed, figure, figcaption, footer, .H5-header, hgroup, menu, .H5-nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/*\*/
+.clearfix {
+  display: block;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* scaffolding.css.scss
+ * Basic structure
+ * ------------------------------------------------------------------ */
+body {
+  background: url(http://1.bp.blogspot.com/-KJeS778biQI/Uedq6XOdbYI/AAAAAAAAGHs/fQHXSxkrn28/s1600/body-bg.jpg) #ebebeb;
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, Serif;
+  font-size: 81.3%;
+  text-rendering: optimizeLegibility;
+  line-height: 1.692em;
+  color: #131313;
+}
+
+::-moz-selection {
+  background: $(maincolor);
+  color: #fff;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: $(maincolor);
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: $(maincolor);
+  color: #fff;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+/* Links
+ * ------------------------------------------------------------------ */
+a:link, a:visited {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #515151;
+  text-decoration: none;
+}
+a:hover {
+  color: $(maincolor);
+}
+a:hover img {
+  opacity: .9;
+}
+a img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Typographic elements
+ * ------------------------------------------------------------------ */
+abbr,
+acronym,
+dfn {
+  border-bottom: 1px dotted lightgrey;
+  cursor: help;
+  letter-spacing: .1em;
+}
+
+blockquote {
+  border-left: 3px solid $(maincolor);
+  color: #515151;
+  font-family: "Amaranth", Helvetica, Arial, Clean, Sans-serif;
+  margin: 22px 0;
+  padding-left: 1.692em;
+}
+blockquote p + p {
+  text-indent: 0;
+}
+blockquote p {
+  margin-bottom: 22px;
+}
+blockquote strong,
+blockquote b,
+blockquote cite,
+blockquote em,
+blockquote i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+code,
+kbd {
+  background: #ebebeb;
+  font-family: Terminal, monospace;
+  padding: 0 .25em;
+}
+
+mark {
+  background: $(maincolor);
+  color: #fff;
+  padding: 0 .25em;
+  font-style: italic;
+}
+
+pre,
+var,
+tt {
+  font-family: Terminal, monospace;
+  margin: 22px 0;
+  white-space: pre-wrap;
+}
+pre code,
+var code,
+tt code {
+  display: block;
+  padding: 11px;
+}
+pre a,
+var a,
+tt a {
+  border-bottom: 1px dotted lightgrey;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+small {
+  font-size: .769em;
+  line-height: 1.692em;
+}
+
+sup,
+sub {
+  font-size: .769em;
+  height: 0;
+  line-height: 1em;
+  padding: 0 .25em;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+address,
+.vcard {
+  margin-bottom: 22px;
+}
+
+ins {
+  color: #f00;
+  text-decoration: none;
+}
+
+hr {
+  background: url(http://4.bp.blogspot.com/-ssauM8DjsFI/Uedq7O0S9bI/AAAAAAAAGIE/Cuc-VPiUWTk/s1600/hr.png) center no-repeat;
+  border: none;
+  height: 6px;
+  margin: 32px 0;
+}
+
+/* Special elements
+ * ------------------------------------------------------------------ */
+span.amp {
+  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+  font-style: italic;
+}
+
+span.drop-cap {
+  float: left !important;
+  font-size: 5.538em !important;
+  line-height: .85em !important;
+  margin-top: 2px;
+  padding-left: -5px;
+  padding-right: 12px !important;
+  position: relative;
+  top: 2px;
+  text-transform: uppercase;
+}
+
+div.cap:first-letter {
+  float: left;
+  font-size: 5.538em;
+  line-height: .85em;
+  margin-top: 2px;
+  padding-left: -5px;
+  padding-right: 12px;
+  text-transform: uppercase;
+}
+
+.alert p:first-child:first-letter,
+blockquote p:first-child:first-letter,
+li p:first-child:first-letter {
+  float: none !important;
+  font-size: 1em !important;
+  line-height: 1.6 !important;
+  padding-right: 0 !important;
+}
+
+div.cap:first-letter {
+  text-transform: none;
+}
+
+span.story-end {
+  color: $(maincolor);
+  font-size: 1.385em;
+  margin-left: 2px;
+}
+
+h2.pullquote {
+  border-top: 1px dotted lightgrey;
+  border-bottom: 1px dotted lightgrey;
+  margin: 1.692em 0;
+  padding: 1.692em 0;
+}
+
+.classic-caption {
+  margin: 0 auto 22px;
+  text-align: center;
+}
+.classic-caption h2 {
+  font-size: 1em;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.classic-caption p {
+  border-bottom: 1px dotted #d3d3d3;
+  border-top: 1px dotted #d3d3d3;
+  font-style: italic;
+  font-size: .846em;
+  line-height: 1.85;
+  padding: 11px 0;
+}
+
+.classic-title {
+  border-bottom: 1px dotted #d3d3d3;
+  border-top: 1px dotted #d3d3d3;
+  margin: 0 auto 22px;
+  padding: 11px 0;
+  text-align: center;
+}
+.classic-title h2 {
+  font-size: 1em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.classic-title p {
+  font-size: .846em;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  text-align: center !important;
+}
+
+/* Table
+ * ------------------------------------------------------------------ */
+table {
+  margin: 22px 0;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+table th {
+  text-align: left;
+  color: #481f00;
+}
+table thead th {
+  background: $(maincolor);
+  padding: 4px 8px;
+}
+table th,
+table td,
+table caption {
+  padding: 4px 10px 4px 5px;
+}
+table tbody tr:nth-child(even) td,
+table tbody tr.even td {
+  background: $(maincolor);
+  background: rgba(255, 109, 1, 0.1);
+}
+table tfoot {
+  font-style: italic;
+}
+table td[valign="top"] {
+  vertical-align: top;
+}
+table td[valign="bottom"] {
+  vertical-align: bottom;
+}
+table caption {
+  background: #ebebeb;
+  padding: 4px 8px;
+}
+
+/* List
+ * ------------------------------------------------------------------ */
+#wrapper ol,
+#wrapper ul {
+  margin: 22px 0;
+  text-indent: 1.5em;
+}
+#wrapper ol a:link,
+#wrapper ol a:visited,
+#wrapper ul a:link,
+#wrapper ul a:visited {
+  border-bottom: 1px dotted lightgrey;
+}
+#wrapper li ul li,
+#wrapper li ol li {
+  padding-left: 22px;
+}
+
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+section[role="main"] ul {
+  list-style: circle outside;
+}
+section[role="main"] ol {
+  list-style: decimal outside;
+}
+section[role="main"] li {
+  margin-left: 1.5em;
+  text-indent: 0;
+}
+
+/* Definition list
+ * ------------------------------------------------------------------ */
+dl {
+  margin: 22px 0;
+}
+dl dt {
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+dl dd {
+  font-style: italic;
+  margin: 0 0 11px 1.5em;
+  color: #515151;
+}
+
+/* Classes
+ * ------------------------------------------------------------------ */
+.clear {
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.noborder {
+  border: none;
+}
+
+.return {
+  margin: 11px 0 22px 0;
+}
+
+/* Alerts
+ * ------------------------------------------------------------------ */
+.alert {
+  padding: .8em;
+  border: 1px solid #ebebeb;
+  margin-bottom: 1.692em;
+}
+
+.error {
+  background: #fbe3e4;
+  border-color: #fbc2c4;
+  color: #8a1f11;
+}
+
+.notice {
+  background: #fff6bf;
+  border-color: #ffd324;
+  color: #514721;
+}
+
+.success {
+  background: #e6efc2;
+  border-color: #c6d880;
+  color: #264409;
+}
+
+/* Baseline
+ * ------------------------------------------------------------------ */
+p + p {
+  text-indent: 1.5em;
+}
+
+p + p span.drop-cap {
+  text-indent: 0;
+}
+
+p + img,
+p + a img,
+br + img,
+br + a img,
+p .size-full,
+p + p img, p + .classic-caption,
+p + .classic-title,
+p + div.flexslider {
+  margin-top: 22px;
+}
+
+p + *:not(p) {
+  margin-top: 22px;
+}
+
+/* Header
+ * ------------------------------------------------------------------ */
+.H5-header {
+  margin-bottom: 22px;
+  width: 100%;
+  text-align: center;
+}
+.H5-header a:hover .logo {
+  opacity: 1;
+}
+.H5-header .logo {
+  margin: 22px auto;
+  display: block;
+}
+.H5-header h1 {
+  text-align: center;
+  display: block;
+  line-height: 22px;
+  margin: 25px auto 24px;
+}
+.H5-header h4 {
+  clear: none;
+  margin-bottom: 11px;
+}
+#logo {
+    float: left;
+}
+#logo * {
+    text-align: left;
+}
+#logo .title {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 5px solid $(maincolor);
+    padding: 0 0 1em 0;
+}
+#res-searchthis {
+    float: right;
+    position: relative;
+    margin: 20px 0 0 0;
+}
+#logo #header-inner img {
+    margin: 20px 0 0 0;
+}
+/* Menu
+ * ------------------------------------------------------------------ */
+.H5-nav[role="navigation"] {
+  border-bottom: 1px dotted lightgrey;
+  border-top: 1px dotted lightgrey;
+  display: inline-block;
+  margin: 22px auto;
+  width: 100%;
+  text-align: center;
+}
+.H5-nav[role="navigation"] ul {
+  margin: 0;
+  text-indent: 0;
+}
+.H5-nav[role="navigation"] li ul li {
+  padding-left: 0;
+}
+.H5-nav[role="navigation"] li a,
+.H5-nav[role="navigation"] li {
+  color: #000;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  
+}
+.crosscol .PageList LI, .footer .PageList LI {
+ float:none!important;
+}
+.H5-nav[role="navigation"] li a :hover,
+.H5-nav[role="navigation"] li :hover {
+  color: $(maincolor);
+}
+.H5-nav[role="navigation"] li {
+  margin: 0 2%;
+  position: relative;
+}
+.H5-nav[role="navigation"] li a {
+  border-bottom: 0;
+  padding: 1em 0;
+}
+.H5-nav[role="navigation"] li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  padding: 0;
+  margin: 0;
+  margin-left: -4px;
+  z-index: 1;
+  word-wrap: break-word;
+}
+.H5-nav[role="navigation"] li:hover ul {
+  display: block;
+  border-left: 0;
+}
+.H5-nav[role="navigation"] li ul li,
+.H5-nav[role="navigation"] li ul li a {
+  float: none;
+}
+.H5-nav[role="navigation"] li ul li a {
+  background: #f0f0f0;
+  border-bottom: 1px dotted lightgrey;
+  display: block;
+  font-size: .846em;
+  padding: 12px 10px;
+  width: 90px;
+}
+#main-menu .PageList {
+    margin-bottom: 0;
+}
+
+/* Layout
+ * ------------------------------------------------------------------ */
+#container {
+  -webkit-box-shadow: 0 1px 3px rgba(100, 100, 100, 0.45);
+  -moz-box-shadow: 0 1px 3px rgba(100, 100, 100, 0.45);
+  box-shadow: 0 1px 3px rgba(100, 100, 100, 0.45);
+  border: 1px solid #c6c6c6;
+  margin: 2%;
+  max-width: 880px;
+  padding: 3.125% 6.25%;
+}
+
+#container,
+.post-title h4 {
+  background: #ffffff;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+aside[role="complementary"] {
+  border-top: 1px dotted lightgrey;
+  clear: both;
+  float: left;
+  margin-top: 1.692em;
+  padding-top: 1.692em;
+  width: 100%;
+}
+
+section[role="main"] p {
+  text-align: justify;
+}
+
+/* Footer
+ * ------------------------------------------------------------------ */
+footer[role="contentinfo"] {
+  border-top: 1px dotted lightgrey;
+  float: left;
+  margin-top: 44px;
+  width: 100%;
+  text-align: center;
+  padding-top: 22px;
+}
+footer[role="contentinfo"] p {
+  font-size: .923em;
+  text-indent: 0;
+}
+footer[role="contentinfo"] .to-top {
+  margin: 0 auto 16px;
+}
+
+#connect {
+  display: inline-block;
+  margin: 22px auto 8px;
+}
+#connect ul {
+  margin: 0;
+  text-indent: 0;
+}
+#connect ul li:first-child {
+  padding-left: 0;
+}
+#connect li {
+  float: left;
+  list-style-type: none;
+  padding-left: 0.846em;
+}
+#connect li a:link,
+#connect li a:visited {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-bottom: none;
+}
+#connect li a:link:hover,
+#connect li a:visited:hover {
+  background-position: 0 -18px;
+}
+#connect li.twitter a {
+  background-image: url(http://2.bp.blogspot.com/-xoL3jHKdtwo/Uedq9hlUQbI/AAAAAAAAGJM/tRW4tzKn3Yc/s1600/twitter.png);
+}
+#connect li.facebook a {
+  background-image: url(http://1.bp.blogspot.com/-3KjKgp7Uskw/Uedq6Xk7ezI/AAAAAAAAGHw/HOuZJfqgWSM/s1600/facebook.png);
+}
+#connect li.google a {
+  background-image: url(http://2.bp.blogspot.com/-6DeGhg0TRws/Uedq7J7Qs5I/AAAAAAAAGIU/vvO_RQ9geko/s1600/google.png);
+}
+#connect li.flickr a {
+  background-image: url(http://3.bp.blogspot.com/-hZUjbE3IonM/Uedq6wsPMkI/AAAAAAAAGIQ/RrhobLdmiKE/s1600/flickr.png);
+}
+#connect li.rss a {
+  background-image: url(http://1.bp.blogspot.com/-KvQthrlb0ls/Uedq8LU1QlI/AAAAAAAAGIs/Gf0rrZtDa8Y/s1600/rss.png);
+}
+
+/* patterns.css.scss
+ * Repeatable patterns
+ * ------------------------------------------------------------------ */
+p, ul, ol, dl, blockquote, .textwidget {
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+p a:link, p a:visited, ul a:link, ul a:visited, ol a:link, ol a:visited, dl a:link, dl a:visited, blockquote a:link, blockquote a:visited, .textwidget a:link, .textwidget a:visited {
+  border-bottom: 1px dotted lightgrey;
+}
+
+h1 {
+  font-size: 1.692em;
+}
+h1 a:link, h1 a:visited {
+  color: #000;
+}
+h1 a:link:hover, h1 a:visited:hover {
+  color: $(maincolor);
+}
+
+h2 {
+  font-size: 1.385em;
+}
+
+h3 {
+  color: $(maincolor);
+  font-family: "Amaranth", Helvetica, Arial, Clean, Sans-serif;
+  font-size: 1em;
+  letter-spacing: .1em;
+}
+h3 a:link, h3 a:visited {
+  color: $(maincolor);
+}
+
+h4 {
+  color: #515151;
+  font-size: .923em;
+  font-style: italic;
+}
+
+h5 {
+  background: $(maincolor);
+  color: #fff;
+  display: inline-block;
+  font-family: "Amaranth", Helvetica, Arial, Clean, Sans-serif;
+  font-size: .923em;
+  letter-spacing: .1em;
+  padding: 0 .25em;
+}
+h5 a:link, h5 a:visited {
+  color: #fff;
+}
+
+h6 {
+  font-size: .846em;
+}
+h6 a:hover, h6 a:link {
+  border-bottom: 1px dotted lightgrey;
+}
+
+/* Media
+ * ------------------------------------------------------------------ */
+img {
+  height: auto;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
+embed,
+object {
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
+video,
+iframe {
+  max-width: 100%;
+}
+
+section[role="main"] p > iframe {
+  margin: 22px;
+  margin-left: -1.5em;
+}
+
+/* posts.css.scss
+ * Post styling
+ * ------------------------------------------------------------------ */
+.entry {
+  clear: both;
+}
+
+.entry-footer {
+  border-bottom: 1px dotted lightgrey;
+  border-top: 1px dotted lightgrey;
+  display: block;
+  margin: 0 auto 44px;
+  padding: 22px 0 44px 0;
+}
+.entry-footer .alignleft {
+  margin-left: 8.51064%;
+}
+.entry-footer .alignright {
+  margin-right: 8.51064%;
+}
+.entry-footer code {
+  background: $(maincolor);
+  background: rgba(255, 109, 1, 0.1);
+  font-size: 8px;
+  margin-right: 6px;
+  padding: 1px 3px;
+  position: relative;
+  top: -1px;
+}
+
+.entry-footer-none {
+  border-top: 1px dotted lightgrey;
+  display: block;
+  margin: 0 auto 44px;
+}
+
+.post {
+  float: left;
+  margin-bottom: 44px;
+  width: 100% !important;
+}
+.post .column {
+  border-right: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.post-feature {
+  margin-bottom: 22px;
+}
+.post-feature img {
+  margin-bottom: 0;
+}
+
+.page-links,
+.tag-links,
+.cat-links {
+  clear: both;
+  display: block;
+  margin-top: 22px;
+  margin-bottom: -11px;
+}
+.page-links a:link, .page-links a:visited,
+.tag-links a:link,
+.tag-links a:visited,
+.cat-links a:link,
+.cat-links a:visited {
+  border-bottom: 1px dotted lightgrey;
+}
+
+.cat-links {
+  margin-bottom: 11px;
+}
+
+.tag-links {
+  background: url(http://2.bp.blogspot.com/-QVQ6nNtQSBo/Uedq9uYVJqI/AAAAAAAAGJU/yZtFn1tC0DE/s1600/tag.png) no-repeat;
+  margin-top: 16px;
+}
+.tag-links p {
+  margin-left: 14px;
+  position: relative;
+  top: -5px;
+}
+
+section[role="main"] + .tag-links {
+  margin-top: 22px;
+}
+
+.first {
+  margin-bottom: 0 !important;
+}
+
+
+.post-edit-link {
+  clear: both;
+  border-bottom: 1px dotted lightgrey;
+  display: inline-block;
+  float: right;
+  font-style: italic;
+  line-height: 1.2em;
+  margin: 1.692em 0;
+}
+
+.post-title {
+  border-bottom: 1px dotted lightgrey;
+  margin-bottom: 44px;
+  word-wrap: break-word;
+  text-align: center;
+  display: block;
+}
+.post-title h1 {
+  margin-bottom: 11px !important;
+  border: none;
+}
+.post-title h3 {
+  margin-top: -22px;
+  margin-bottom: -10px !important;
+}
+.post-title h4 {
+  display: inline-block;
+  margin-bottom: 22px;
+  padding: 0 1em;
+  position: relative;
+  top: 32px;
+}
+.post-title h1 + h3 {
+  margin-top: 11px !important;
+}
+
+.no-author h1 {
+  margin-bottom: 0 !important;
+}
+.no-author .banner {
+  margin: 11px auto;
+}
+.no-author .feature {
+  margin-bottom: -36px;
+}
+
+/* Banner
+ * ------------------------------------------------------------------ */
+.banner {
+  background: url(http://1.bp.blogspot.com/-TlRfGnzD1eA/Uedq8LH7xqI/AAAAAAAAGIo/wY7rr7p952c/s1600/mid.png);
+  color: #fff;
+  display: inline-block;
+  font-family: Helvetica, Arial, Clean, Sans-serif;
+  font-size: 9px;
+  height: 19px;
+  letter-spacing: .25em;
+  line-height: 19px;
+  margin: -20px auto 22px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: -0.4em;
+  width: auto;
+}
+.banner:before, .banner:after {
+  display: block;
+  font-size: 0;
+  height: 19px;
+  position: relative;
+  width: 21px;
+}
+.banner:before {
+  content: url(http://2.bp.blogspot.com/-8pgR6DvNWKI/Uedq7iuLhKI/AAAAAAAAGIM/nc5nl33XiPA/s1600/left_tail.png);
+  float: left;
+  left: -10px;
+}
+.banner:after {
+  content: url(http://4.bp.blogspot.com/-nT9aW6OjSQw/Uedq8JPcAnI/AAAAAAAAGIk/PPh9Zem2ifQ/s1600/right_tail.png);
+  float: right;
+  right: -10px;
+}
+
+/* Gallery
+ * ------------------------------------------------------------------ */
+div.flexslider .slides > li {
+  margin-left: 0;
+  list-style-type: none;
+}
+div.flexslider img {
+  display: block;
+  margin: 0 auto;
+}
+div.flexslider p + div.flexslider {
+  margin-top: 22px;
+}
+div.flexslider .flex-pauseplay span {
+  text-transform: capitalize;
+}
+div.flexslider html[xmlns] .slides {
+  display: block;
+}
+div.flexslider * html .slides {
+  height: 1%;
+}
+div.flexslider .no-js .slides > li:first-child {
+  display: block;
+}
+div.flexslider .flex-control-nav,
+div.flexslider .flex-direction-nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: visible;
+}
+div.flexslider .flex-control-nav a,
+div.flexslider .flex-direction-nav a {
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+div.flexslider .flex-direction-nav li a {
+  display: block;
+  height: 52px;
+  margin: 0;
+  opacity: .5;
+  padding: 0;
+  text-indent: -9999px;
+  width: 24px;
+}
+div.flexslider .flex-direction-nav li a:hover {
+  opacity: 1;
+}
+div.flexslider .flex-direction-nav li a.next {
+  background-image: url(http://2.bp.blogspot.com/-9OPnooXC7aY/Uedq8-zTy8I/AAAAAAAAGI8/waG07ZY4TCo/s1600/slide_nav.png);
+  padding-left: 36px;
+}
+div.flexslider .flex-direction-nav li a.prev {
+  background-image: url(http://2.bp.blogspot.com/-9OPnooXC7aY/Uedq8-zTy8I/AAAAAAAAGI8/waG07ZY4TCo/s1600/slide_nav.png);
+  background-position: left bottom;
+  left: 0;
+  padding-right: 10px;
+}
+div.flexslider .flex-direction-nav li a.disabled {
+  opacity: .3;
+  cursor: default;
+}
+div.flexslider .flex-control-nav {
+  text-align: center;
+  margin: 6px auto 9px;
+}
+div.flexslider .flex-control-nav li {
+  margin: 0 0 0 4px;
+  display: inline-block;
+}
+div.flexslider .flex-control-nav li a {
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: #fff;
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.18);
+}
+div.flexslider .flex-control-nav li a:hover {
+  background: $(maincolor);
+  -webkit-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+div.flexslider .flex-control-nav li a.active {
+  background: #ebebeb;
+  cursor: default;
+}
+div.flexslider .flex-control-nav li a:first-child {
+  margin: 0;
+}
+
+/* Image
+ * ------------------------------------------------------------------ */
+.format-image img {
+  display: block;
+  margin: 0 auto;
+}
+.format-image .high-res {
+  margin: 11px auto;
+}
+
+/* Video
+ * ------------------------------------------------------------------ */
+.format-video .fluid-width-video-wrapper {
+  margin-bottom: 22px;
+}
+.format-video p:nth-child(2) {
+  text-indent: 0;
+}
+
+/* pages.css.scss
+ * Pages and page templates
+ * ------------------------------------------------------------------ */
+img {
+  margin-bottom: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 22px;
+  clear: both;
+}
+
+.alignleft {
+  margin-right: 1.692em;
+}
+
+.alignright {
+  margin-left: 1.692em;
+}
+
+.title {
+  display: block;
+  margin-bottom: 39px;
+  margin-top: 0;
+  text-align: center;
+}
+.title h3 {
+  margin-top: -14px;
+}
+
+/* Single
+ * ------------------------------------------------------------------ */
+#pagination {
+  display: block;
+  text-align: center;
+}
+
+.single #pagination h3 {
+  display: inline-block;
+  margin-bottom: 11px;
+  margin-top: 22px;
+}
+.single .entry {
+  margin-bottom: 0;
+}
+
+
+
+/* Error
+ * ------------------------------------------------------------------ */
+.error404 {
+  text-align: center;
+}
+
+
+
+/* widgets.css.scss
+ * All widget styling
+ * ------------------------------------------------------------------ */
+.widget_tag_cloud {
+  display: inline-block;
+}
+.widget_tag_cloud a {
+  background: #ebebeb;
+  border-bottom: 0 !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  float: left;
+  font-size: .846em !important;
+  margin: 0 3.125% 3.125% 0;
+  padding: 2% 4%;
+}
+
+
+
+.widget {
+  margin-bottom: 22px;
+  word-wrap: break-word;
+}
+
+.tagcloud {
+  margin-top: 27px;
+}
+
+form[role="search"] input[type="submit"] {
+  margin-top: 0;
+}
+
+/* Sidebar
+ * ------------------------------------------------------------------ */
+aside[role="complementary"],
+.doc {
+  clear: left;
+}
+aside[role="complementary"] p + p,
+.doc p + p {
+  text-indent: 0;
+}
+aside[role="complementary"] p,
+.doc p {
+  margin-bottom: 11px;
+}
+aside[role="complementary"] ol a:link,
+aside[role="complementary"] ol a:visited,
+aside[role="complementary"] ul a:link,
+aside[role="complementary"] ul a:visited,
+.doc ol a:link,
+.doc ol a:visited,
+.doc ul a:link,
+.doc ul a:visited {
+  border-bottom: none;
+}
+aside[role="complementary"] ul li,
+.doc ul li {
+  border-bottom: 1px dotted lightgrey;
+  list-style: circle;
+  margin-bottom: 11px;
+  margin-left: 16px;
+  padding-bottom: 11px;
+}
+aside[role="complementary"] ul li:last-child,
+.doc ul li:last-child {
+  padding-bottom: 0;
+}
+aside[role="complementary"] li:last-child,
+.doc li:last-child {
+  border: none;
+}
+aside[role="complementary"] ol,
+aside[role="complementary"] ul,
+.doc ol,
+.doc ul {
+  text-indent: 0;
+}
+aside[role="complementary"] ul .children,
+aside[role="complementary"] ul .sub-menu,
+.doc ul .children,
+.doc ul .sub-menu {
+  margin-top: 17px;
+  margin-bottom: 11px;
+}
+aside[role="complementary"] .widgettitle,
+.doc .widgettitle {
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+aside[role="complementary"] .widgettitle li a,
+.doc .widgettitle li a {
+  border-bottom: 0;
+}
+
+/* comments.css.scss
+ * Comment styling
+ * ------------------------------------------------------------------ */
+ .comment-form {
+    max-width: 100%;
+}
+#comments-wrapper {
+  width: 100%;
+  float: right;
+  color: #515151;
+}
+#comments-wrapper p {
+  clear: both;
+}
+#comments-wrapper ol, #comments-wrapper ul {
+  margin: 22px 0;
+  text-indent: 0;
+}
+#comments-wrapper ol a:link, #comments-wrapper ol a:visited, #comments-wrapper ul a:link, #comments-wrapper ul a:visited {
+  border-bottom: none;
+}
+
+.comment-page {
+  margin-top: 44px;
+}
+
+/* Top
+ * ------------------------------------------------------------------ */
+.comment-number {
+  border-top: 1px dotted lightgrey;
+  margin: 22px 0 -8px;
+  padding: 16px 0 0;
+}
+.comment-number span {
+  font-style: italic;
+  padding-bottom: 11px;
+  display: block;
+}
+
+.pagination-single {
+  clear: both;
+  display: block;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.pagination-single p a:first-child {
+  margin-right: 11px;
+}
+
+.vcard {
+  color: #131313;
+}
+.vcard a {
+  color: #131313;
+}
+
+/* Body
+ * ------------------------------------------------------------------ */
+ol.commentlist li.comment {
+  list-style: none;
+}
+
+li.comment {
+  border-bottom: 1px dotted lightgrey;
+  margin: 22px 0;
+  padding-bottom: 22px;
+}
+li.bypostauthor .avatar {
+  border-bottom: 3px solid $(maincolor);
+}
+li.bypostauthor .children .avatar {
+  border: 0;
+}
+
+.reply {
+  display: block;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: -7px;
+}
+
+a#cancel-comment-reply-link {
+  color: #515151;
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, Serif;
+  font-size: 1em;
+  font-style: italic;
+  letter-spacing: 0;
+  margin: 22px 0 0 3.125%;
+}
+
+#comments .children {
+  border-bottom: 0;
+  border-left: 1px solid #ebebeb;
+  margin-left: 3.125%;
+  padding-left: 1.692em;
+}
+#comments ul.children li.comment {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+a#leavecomment {
+  border-bottom: 1px dotted lightgrey;
+}
+
+.comment-edit-link {
+  clear: both;
+}
+
+em.comment-awaiting-moderation {
+  clear: both;
+  display: block;
+}
+
+.avatar {
+  margin-right: 0.846em;
+  display: inline-block;
+  float: left;
+}
+
+.comment-meta {
+  display: block;
+}
+.comment-meta a:link, .comment-meta a:visited {
+  display: block;
+  margin-top: -22px;
+  border-bottom: none;
+}
+
+/*Pingbacks/Trackbacks
+ * ------------------------------------------------------------------ */
+ol.pinglist {
+  line-height: 1.692em;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+h3.pinghead {
+  margin-bottom: -11px;
+}
+
+/* Form
+ * ------------------------------------------------------------------ */
+#respond {
+  width: 96.6%;
+}
+
+#reply-title {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  clear: both;
+}
+
+label.comment-field {
+  display: inline-block;
+  margin: 11px 0;
+}
+
+input.text-input,
+#comment {
+  width: 97.5%;
+}
+
+#respond fieldset label.comment-field:after {
+  content: "\003A";
+}
+
+form p + p, .comment-body p + p {
+  text-indent: 0;
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: 1px solid #ebebeb;
+  line-height: 16px;
+  font-size: 13px;
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, Serif;
+  padding: 10px;
+  color: #515151;
+}
+
+textarea:focus,
+select:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus {
+  color: #131313;
+  outline-color: transparent;
+  outline-style: none;
+  border-color: #d7d7d7;
+  -webkit-box-shadow: 0 0 2px #ebebeb;
+  -moz-box-shadow: 0 0 2px #ebebeb;
+  box-shadow: 0 0 2px #ebebeb;
+  z-index: 1;
+}
+
+input#submit {
+  display: block;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  cursor: pointer;
+}
+
+form#commentform p.guidelines {
+  font-size: .923em;
+  font-style: italic;
+  margin: 11px 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+p.subscribe-to-comments,
+p.comments-rss {
+  margin: 0 0 22px 0;
+  height: 18px;
+  overflow: hidden;
+}
+p.subscribe-to-comments a,
+p.comments-rss a {
+  background: url(http://3.bp.blogspot.com/-3QICBSun4bI/Uedq6Qqzl6I/AAAAAAAAGH0/cfs1HPRgRuc/s1600/comments_rss.png) no-repeat 0 0;
+  height: 18px;
+  border-bottom: none;
+  font-size: .885em;
+  padding: 0 0 0 20px;
+  -webkit-transition: background 0.1s linear;
+  -moz-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+p.subscribe-to-comments a:hover,
+p.comments-rss a:hover {
+  background-position: 0 -14px;
+}
+
+/* flexslider.css.scss
+ * All slider styling
+ * ------------------------------------------------------------------ */
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#featured .flexslider .slides > li {
+  display: none;
+}
+#featured .flexslider .slides > li a:first-child {
+    display: block;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+#featured .flexslider .slides > li img {
+    min-height: 100%;
+ min-width: 100%;
+ width: auto!important;
+ height: auto!important;
+ position: relative;
+}
+
+.flexslider {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.flexslider .slides > li {
+  position: relative;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.flexslider .slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.flexslider .slides img {
+  display: block;
+  margin-bottom: 11px;
+  max-width: 100%;
+}
+
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+
+html[xmlns] .slides {
+  display: block;
+}
+
+* html .slides {
+  height: 1%;
+}
+
+.no-js .slides > li:first-child {
+  display: block;
+}
+
+/* Direction navigation
+ * ------------------------------------------------------------------ */
+.flex-direction-nav li a {
+  background: url(http://2.bp.blogspot.com/-9OPnooXC7aY/Uedq8-zTy8I/AAAAAAAAGI8/waG07ZY4TCo/s1600/slide_nav.png) no-repeat 0 0;
+  border-bottom: none;
+  cursor: pointer;
+  display: block;
+  height: 52px;
+  margin: -20px 0 0;
+  opacity: .5;
+  position: absolute;
+  text-indent: -9999px;
+  top: 36%;
+  width: 52px;
+  border-bottom: none !important;
+}
+.flex-direction-nav li a:hover {
+  opacity: 1;
+}
+.flex-direction-nav li a.next {
+  background-position: -52px 0;
+  right: -8px;
+}
+.flex-direction-nav li a.prev {
+  background-position: 0 0;
+  left: 0px;
+}
+
+/* Caption
+ * ------------------------------------------------------------------ */
+.caption {
+  bottom: -22px;
+  color: #515151;
+  font-family: Helvetica, Arial, Clean, Sans-serif;
+  font-size: .846em;
+  font-style: italic;
+  left: 0;
+  line-height: 18px;
+  text-indent: 0;
+}
+
+/* Featured
+ * ------------------------------------------------------------------ */
+#featured {
+  width: 100%;
+  height: auto;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+#featured img {
+  width: 100%;
+}
+
+/* queries.css.scss
+ * Media queries
+ * ------------------------------------------------------------------ */
+@media screen and (min-width: 560px) and (min-height: 560px) {
+ 
+
+  .columnize {
+    -moz-column-count: 2;
+    -moz-column-gap: 44px;
+    -moz-column-rule: 1px dotted lightgrey;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 44px;
+    -webkit-column-rule: 1px dotted lightgrey;
+    column-count: 2;
+    column-gap: 44px;
+    column-rule: 1px dotted lightgrey;
+  }
+
+  .first.column {
+    border-right: 1px dotted lightgrey;
+    float: left;
+    padding-right: 3.125%;
+    width: 45.7446809%;
+  }
+
+  .last.column {
+    float: right;
+    margin-left: 3.125%;
+    width: 46.77734%;
+  }
+  .last.column p:first-child:first-letter {
+    float: none;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: normal;
+  }
+
+  .flex-direction-nav li a {
+    top: 46%;
+  }
+
+  #respond {
+    width: 60%;
+  }
+
+  .pagination-single {
+    float: right;
+    text-align: right;
+  }
+
+  .to-top {
+    display: none;
+  }
+}
+/* Large screen
+ * ------------------------------------------------------------------ */
+@media screen and (min-width: 900px) and (min-height: 560px) {
+  .columnize {
+    -moz-column-count: 2;
+    -moz-column-gap: 60px;
+    -moz-column-rule: 1px dotted lightgrey;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 60px;
+    -webkit-column-rule: 1px dotted lightgrey;
+    column-count: 2;
+    column-gap: 60px;
+    column-rule: 1px dotted lightgrey;
+  }
+
+  .first.column {
+    float: left;
+    padding-right: 4.25532%;
+    width: 45.74468%;
+  }
+
+  .last.column {
+    float: left;
+    margin-left: 4.25532%;
+    width: 45.54937%;
+  }
+  .last.column p:first-child:first-letter {
+    float: none;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: normal;
+  }
+
+  aside[role="complementary"] {
+    border-top: 0;
+    clear: none;
+    float: right;
+    margin-top: 0;
+    padding-top: 0;
+    width: 20.3125%;
+  }
+
+  #wrapper {
+    float: left;
+  }
+
+  .sidebar {
+    border-right: 1px dotted lightgrey;
+    padding-right: 3.125%;
+    width: 73.33984% !important;
+  }
+  .sidebar #respond {
+    width: 80%;
+  }
+
+  #pagination {
+    width: 100%;
+  }
+
+  form[role="search"] input[type="submit"] {
+    margin-top: 22px;
+  }
+
+  .entry-footer .alignleft {
+    margin-left: 17.02128%;
+  }
+  .entry-footer .alignright {
+    margin-right: 17.02128%;
+  }
+}
+@media screen and (min-width: 1030px) {
+  #container {
+    margin: 3.125% auto;
+    padding: 30px 64px;
+  }
+}
+
+/* print.css.scss
+ * Print styles
+ * ------------------------------------------------------------------ */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000000 !important;
+    border: none !important;
+  }
+
+  body {
+    font-size: 75%;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  pre,
+  blockquote,
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+  }
+
+  #comments,
+  aside[role="complementary"] {
+    page-break-before: always;
+  }
+
+  #container {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #respond,
+  .banner:before,
+  .banner:after,
+  .to-top {
+    display: none;
+  }
+}
+/* support.css.scss
+ * Browser support styling
+ * ------------------------------------------------------------------ */
+html.IE9 div.cap:first-letter {
+  float: none;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: normal;
+}
+
+/* IE8
+ * ------------------------------------------------------------------ */
+html.IE8 .H5-nav[role="navigation"] {
+  margin-bottom: 64px;
+}
+html.IE8 img {
+  width: auto;
+}
+html.IE8 .post-title h4 {
+  display: block;
+}
+html.IE8 .post-title {
+  margin-bottom: 44px;
+  display: block;
+}
+html.IE8 p + img, html.IE8 p + a img, html.IE8 br + img, html.IE8 br + a img, html.IE8 p + h1, html.IE8 p .size-full, html.IE8 p + h2, html.IE8 p + h3, html.IE8 p + h5, html.IE8 p + h6, html.IE8 p + p img, html.IE8 p + dl, html.IE8 p + .alert, html.IE8 p + address, html.IE8 p + .vcard, html.IE8 p + .classic-caption, html.IE8 p + .classic-title {
+  margin-top: 22px;
+}
+html.IE8 .title {
+  margin-top: -22px;
+}
+html.IE8 .flex-control-nav li,
+html.IE8 .entry-footer code {
+  display: none;
+}
+html.IE8 div.cap:first-letter {
+  float: none;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: normal;
+}
+
+/* IE7
+ * ------------------------------------------------------------------ */
+html.IE7 .post-title {
+  display: block;
+  border-bottom: 0;
+}
+html.IE7 h1, html.IE7 h2, html.IE7 h3, html.IE7 h4, html.IE7 h5, html.IE7 h6 {
+  font-weight: normal;
+}
+html.IE7 .widget_tag_cloud {
+  white-space: nowrap;
+}
+html.IE7 hr {
+  color: #fff;
+  border-bottom: 1px dotted lightgrey;
+}
+html.IE7 h5 {
+  background: transparent;
+  color: #000;
+}
+html.IE7 .feature {
+  display: none;
+}
+html.IE7 .feature + h3 {
+  margin-top: 11px;
+}
+html.IE7 .entry-footer {
+  padding: 11px 0 44px 0;
+}
+html.IE7 p + img, html.IE7 p + a img, html.IE7 br + img, html.IE7 br + a img, html.IE7 p + h1, html.IE7 p .size-full, html.IE7 p + h2, html.IE7 p + h3, html.IE7 p + h5, html.IE7 p + h6, html.IE7 p + p img, html.IE7 p + dl, html.IE7 p + .alert, html.IE7 p + address, html.IE7 p + .vcard, html.IE7 p + .classic-caption, html.IE7 p + .classic-title {
+  margin-top: 22px;
+}
+html.IE7 .title {
+  margin-top: -22px;
+}
+html.IE7 .flex-control-nav li,
+html.IE7 .entry-footer code {
+  display: none;
+}
+html.IE7 div.cap:first-letter {
+  float: none;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: normal;
+}
+html.IE7 .H5-nav[role="navigation"] {
+  margin-bottom: 64px;
+}
+html.IE7 .H5-nav[role="navigation"] li {
+  float: left;
+}
+html.IE7 .H5-nav[role="navigation"] li ul {
+  display: none;
+}
+html.IE7 .H5-nav[role="navigation"] li:hover ul {
+  display: block;
+}
+html.IE7 .H5-nav[role="navigation"] li ul li a {
+  display: block;
+}
+html.IE7 .H5-nav[role="navigation"] ul {
+  display: inline-block;
+}
+html.IE7 .H5-nav[role="navigation"] ul {
+  display: inline;
+}
+html.IE7 #comments-wrapper {
+  float: none;
+}
+
+
+
+
+
+
+
+
+
+/* GOOGLE FONTS */
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amaranth'), url(http://themes.googleusercontent.com/static/fonts/amaranth/v3/RvdVaxHTnYbJDko8dLi4zvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/cj2hUnSRBhwmSPr9kS5899kZXW4sYc4BjuAIFc1SXII.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/c92rD_x0V1LslSFt3-QEpgRV2F9RPTaqyJ4QibDfkzM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxrsuoFAk0leveMLeqYtnfAY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxmWeb5PoA5ztb49yLyUzH1A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxoUt79146ZFaIJxILcpzmhI.woff) format('woff');
+}
+
+
+
+
+
+* {
+ line-height:inherit; /* prevent declarations of line-height in the universal selector */
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 760px) {
+ #featured .flexslider .slides > li a:first-child {
+  height: 250px;
+ }
+}
+
+.hidden {
+ display: none;
+}
+.possibly-related {
+ clear: both;
+}
+.screen-reader-text {
+ position: absolute;
+ left: -1000em;
+}
+
+
+/**
+ * Responsive CSS
+ */
+
+@media screen and (max-width: 800px) {
+
+ .simple-homepage-experiment .or {
+  clear: both;
+  float: none;
+  margin: 20px auto;
+ }
+
+ .simple-homepage-experiment .box {
+ 
+  clear: both;
+  margin: auto 20px;
+  float: none;
+  width: auto;
+ }
+
+ .simple-homepage-experiment .login {
+  margin-bottom: 30px;
+ }
+
+ .simple-homepage-experiment .footer {
+  position: relative;
+  padding-top: 30px;
+ }
+}
+
+@media screen and (max-height: 580px) {
+
+ .simple-homepage-experiment .footer {
+  position: relative;
+  padding-top: 30px;
+  margin-top: 50px;
+ }
+}
+
+
+
+]]></b:skin>
+
+
+
+<b:template-skin>
+<b:variable default='960px' name='content.width' type='length'/>
+<b:variable default='0' name='main.column.left.width' type='length'/>
+<b:variable default='310px' name='main.column.right.width' type='length'/>
+<![CDATA[
+
+/* LAYOUT DESIGN */
+body#layout .hide {
+ display:block!important;
+}
+body#layout .section > div.dropregion:last-child {
+ clear: both;
+}
+body#layout .section {
+ padding: 10px !important;
+ width: auto !important;
+ margin: 0!important;
+}
+
+body#layout .section-label-wrapper {
+    padding: 10px;
+}
+body#layout .label-wrapper-for-sub-menu {
+    background: #fbfbfb;
+}
+
+body#layout .section-label .widget-content {
+    background: none;
+    border: none;
+}
+body#layout .section-label .widget-content div.layout-title {
+    font-size: 30px;
+}
+body#layout .section-label .widget-content .editlink {
+    display: none;
+}
+body#layout .label-wrapper-for-slider {
+    background: lightskyblue;
+}
+
+]]>
+</b:template-skin>
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'/>
+<script type='text/javascript'>
+//<![CDATA[
+
+/*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Contributing Author: Tyler Smith
+ */
+
+(function(a){a.flexslider=function(c,b){var d=a(c);a.data(c,"flexslider",d);d.init=function(){d.vars=a.extend({},a.flexslider.defaults,b);a.data(c,"flexsliderInit",true);d.container=a(".slides",d).eq(0);d.slides=a(".slides:first > li",d);d.count=d.slides.length;d.animating=false;d.currentSlide=d.vars.slideToStart;d.animatingTo=d.currentSlide;d.atEnd=(d.currentSlide==0)?true:false;d.eventType=("ontouchstart" in document.documentElement)?"touchstart":"click";d.cloneCount=0;d.cloneOffset=0;d.manualPause=false;d.vertical=(d.vars.slideDirection=="vertical");d.prop=(d.vertical)?"top":"marginLeft";d.args={};d.transitions="webkitTransition" in document.body.style&&d.vars.useCSS;if(d.transitions){d.prop="-webkit-transform"}if(d.vars.controlsContainer!=""){d.controlsContainer=a(d.vars.controlsContainer).eq(a(".slides").index(d.container));d.containerExists=d.controlsContainer.length>0}if(d.vars.manualControls!=""){d.manualControls=a(d.vars.manualControls,((d.containerExists)?d.controlsContainer:d));d.manualExists=d.manualControls.length>0}if(d.vars.randomize){d.slides.sort(function(){return(Math.round(Math.random())-0.5)});d.container.empty().append(d.slides)}if(d.vars.animation.toLowerCase()=="slide"){if(d.transitions){d.setTransition(0)}d.css({overflow:"hidden"});if(d.vars.animationLoop){d.cloneCount=2;d.cloneOffset=1;d.container.append(d.slides.filter(":first").clone().addClass("clone")).prepend(d.slides.filter(":last").clone().addClass("clone"))}d.newSlides=a(".slides:first > li",d);var m=(-1*(d.currentSlide+d.cloneOffset));if(d.vertical){d.newSlides.css({display:"block",width:"100%","float":"left"});d.container.height((d.count+d.cloneCount)*200+"%").css("position","absolute").width("100%");setTimeout(function(){d.css({position:"relative"}).height(d.slides.filter(":first").height());d.args[d.prop]=(d.transitions)?"translate3d(0,"+m*d.height()+"px,0)":m*d.height()+"px";d.container.css(d.args)},100)}else{d.args[d.prop]=(d.transitions)?"translate3d("+m*d.width()+"px,0,0)":m*d.width()+"px";d.container.width((d.count+d.cloneCount)*200+"%").css(d.args);setTimeout(function(){d.newSlides.width(d.width()).css({"float":"left",display:"block"})},100)}}else{d.transitions=false;d.slides.css({width:"100%","float":"left",marginRight:"-100%"}).eq(d.currentSlide).fadeIn(d.vars.animationDuration)}if(d.vars.controlNav){if(d.manualExists){d.controlNav=d.manualControls}else{var e=a('<ol class="flex-control-nav"></ol>');var s=1;for(var t=0;t<d.count;t++){e.append("<li><a>"+s+"</a></li>");s++}if(d.containerExists){a(d.controlsContainer).append(e);d.controlNav=a(".flex-control-nav li a",d.controlsContainer)}else{d.append(e);d.controlNav=a(".flex-control-nav li a",d)}}d.controlNav.eq(d.currentSlide).addClass("active");d.controlNav.bind(d.eventType,function(i){i.preventDefault();if(!a(this).hasClass("active")){(d.controlNav.index(a(this))>d.currentSlide)?d.direction="next":d.direction="prev";d.flexAnimate(d.controlNav.index(a(this)),d.vars.pauseOnAction)}})}if(d.vars.directionNav){var v=a('<ul class="flex-direction-nav"><li><a class="prev" href="#">'+d.vars.prevText+'</a></li><li><a class="next" href="#">'+d.vars.nextText+"</a></li></ul>");if(d.containerExists){a(d.controlsContainer).append(v);d.directionNav=a(".flex-direction-nav li a",d.controlsContainer)}else{d.append(v);d.directionNav=a(".flex-direction-nav li a",d)}if(!d.vars.animationLoop){if(d.currentSlide==0){d.directionNav.filter(".prev").addClass("disabled")}else{if(d.currentSlide==d.count-1){d.directionNav.filter(".next").addClass("disabled")}}}d.directionNav.bind(d.eventType,function(i){i.preventDefault();var j=(a(this).hasClass("next"))?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}})}if(d.vars.keyboardNav&&a("ul.slides").length==1){function h(i){if(d.animating){return}else{if(i.keyCode!=39&&i.keyCode!=37){return}else{if(i.keyCode==39){var j=d.getTarget("next")}else{if(i.keyCode==37){var j=d.getTarget("prev")}}if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}}}}a(document).bind("keyup",h)}if(d.vars.mousewheel){d.mousewheelEvent=(/Firefox/i.test(navigator.userAgent))?"DOMMouseScroll":"mousewheel";d.bind(d.mousewheelEvent,function(y){y.preventDefault();y=y?y:window.event;var i=y.detail?y.detail*-1:y.originalEvent.wheelDelta/40,j=(i<0)?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}})}if(d.vars.slideshow){if(d.vars.pauseOnHover&&d.vars.slideshow){d.hover(function(){d.pause()},function(){if(!d.manualPause){d.resume()}})}d.animatedSlides=setInterval(d.animateSlides,d.vars.slideshowSpeed)}if(d.vars.pausePlay){var q=a('<div class="flex-pauseplay"><span></span></div>');if(d.containerExists){d.controlsContainer.append(q);d.pausePlay=a(".flex-pauseplay span",d.controlsContainer)}else{d.append(q);d.pausePlay=a(".flex-pauseplay span",d)}var n=(d.vars.slideshow)?"pause":"play";d.pausePlay.addClass(n).text((n=="pause")?d.vars.pauseText:d.vars.playText);d.pausePlay.bind(d.eventType,function(i){i.preventDefault();if(a(this).hasClass("pause")){d.pause();d.manualPause=true}else{d.resume();d.manualPause=false}})}if("ontouchstart" in document.documentElement&&d.vars.touch){var w,u,l,r,o,x,p=false;d.each(function(){if("ontouchstart" in document.documentElement){this.addEventListener("touchstart",g,false)}});function g(i){if(d.animating){i.preventDefault()}else{if(i.touches.length==1){d.pause();r=(d.vertical)?d.height():d.width();x=Number(new Date());l=(d.vertical)?(d.currentSlide+d.cloneOffset)*d.height():(d.currentSlide+d.cloneOffset)*d.width();w=(d.vertical)?i.touches[0].pageY:i.touches[0].pageX;u=(d.vertical)?i.touches[0].pageX:i.touches[0].pageY;d.setTransition(0);this.addEventListener("touchmove",k,false);this.addEventListener("touchend",f,false)}}}function k(i){o=(d.vertical)?w-i.touches[0].pageY:w-i.touches[0].pageX;p=(d.vertical)?(Math.abs(o)<Math.abs(i.touches[0].pageX-u)):(Math.abs(o)<Math.abs(i.touches[0].pageY-u));if(!p){i.preventDefault();if(d.vars.animation=="slide"&&d.transitions){if(!d.vars.animationLoop){o=o/((d.currentSlide==0&&o<0||d.currentSlide==d.count-1&&o>0)?(Math.abs(o)/r+2):1)}d.args[d.prop]=(d.vertical)?"translate3d(0,"+(-l-o)+"px,0)":"translate3d("+(-l-o)+"px,0,0)";d.container.css(d.args)}}}function f(j){d.animating=false;if(d.animatingTo==d.currentSlide&&!p&&!(o==null)){var i=(o>0)?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(i)&&Number(new Date())-x<550&&Math.abs(o)>20||Math.abs(o)>r/2){d.flexAnimate(i,d.vars.pauseOnAction)}else{if(d.vars.animation!=="fade"){d.flexAnimate(d.currentSlide,d.vars.pauseOnAction)}}}this.removeEventListener("touchmove",k,false);this.removeEventListener("touchend",f,false);w=null;u=null;o=null;l=null}}if(d.vars.animation.toLowerCase()=="slide"){a(window).resize(function(){if(!d.animating&&d.is(":visible")){if(d.vertical){d.height(d.slides.filter(":first").height());d.args[d.prop]=(-1*(d.currentSlide+d.cloneOffset))*d.slides.filter(":first").height()+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}else{d.newSlides.width(d.width());d.args[d.prop]=(-1*(d.currentSlide+d.cloneOffset))*d.width()+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}}})}d.vars.start(d)};d.flexAnimate=function(g,f){if(!d.animating&&d.is(":visible")){d.animating=true;d.animatingTo=g;d.vars.before(d);if(f){d.pause()}if(d.vars.controlNav){d.controlNav.removeClass("active").eq(g).addClass("active")}d.atEnd=(g==0||g==d.count-1)?true:false;if(!d.vars.animationLoop&&d.vars.directionNav){if(g==0){d.directionNav.removeClass("disabled").filter(".prev").addClass("disabled")}else{if(g==d.count-1){d.directionNav.removeClass("disabled").filter(".next").addClass("disabled")}else{d.directionNav.removeClass("disabled")}}}if(!d.vars.animationLoop&&g==d.count-1){d.pause();d.vars.end(d)}if(d.vars.animation.toLowerCase()=="slide"){var e=(d.vertical)?d.slides.filter(":first").height():d.slides.filter(":first").width();if(d.currentSlide==0&&g==d.count-1&&d.vars.animationLoop&&d.direction!="next"){d.slideString="0px"}else{if(d.currentSlide==d.count-1&&g==0&&d.vars.animationLoop&&d.direction!="prev"){d.slideString=(-1*(d.count+1))*e+"px"}else{d.slideString=(-1*(g+d.cloneOffset))*e+"px"}}d.args[d.prop]=d.slideString;if(d.transitions){d.setTransition(d.vars.animationDuration);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.slideString+",0)":"translate3d("+d.slideString+",0,0)";d.container.css(d.args).one("webkitTransitionEnd transitionend",function(){d.wrapup(e)})}else{d.container.animate(d.args,d.vars.animationDuration,function(){d.wrapup(e)})}}else{d.slides.eq(d.currentSlide).fadeOut(d.vars.animationDuration);d.slides.eq(g).fadeIn(d.vars.animationDuration,function(){d.wrapup()})}}};d.wrapup=function(e){if(d.vars.animation=="slide"){if(d.currentSlide==0&&d.animatingTo==d.count-1&&d.vars.animationLoop){d.args[d.prop]=(-1*d.count)*e+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}else{if(d.currentSlide==d.count-1&&d.animatingTo==0&&d.vars.animationLoop){d.args[d.prop]=-1*e+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}}}d.animating=false;d.currentSlide=d.animatingTo;d.vars.after(d)};d.animateSlides=function(){if(!d.animating){d.flexAnimate(d.getTarget("next"))}};d.pause=function(){clearInterval(d.animatedSlides);if(d.vars.pausePlay){d.pausePlay.removeClass("pause").addClass("play").text(d.vars.playText)}};d.resume=function(){d.animatedSlides=setInterval(d.animateSlides,d.vars.slideshowSpeed);if(d.vars.pausePlay){d.pausePlay.removeClass("play").addClass("pause").text(d.vars.pauseText)}};d.canAdvance=function(e){if(!d.vars.animationLoop&&d.atEnd){if(d.currentSlide==0&&e==d.count-1&&d.direction!="next"){return false}else{if(d.currentSlide==d.count-1&&e==0&&d.direction=="next"){return false}else{return true}}}else{return true}};d.getTarget=function(e){d.direction=e;if(e=="next"){return(d.currentSlide==d.count-1)?0:d.currentSlide+1}else{return(d.currentSlide==0)?d.count-1:d.currentSlide-1}};d.setTransition=function(e){d.container.css({"-webkit-transition-duration":(e/1000)+"s"})};d.init()};a.flexslider.defaults={animation:"fade",slideDirection:"horizontal",slideshow:true,slideshowSpeed:7000,animationDuration:600,directionNav:true,controlNav:true,keyboardNav:true,mousewheel:false,prevText:"Previous",nextText:"Next",pausePlay:false,pauseText:"Pause",playText:"Play",randomize:false,slideToStart:0,animationLoop:true,pauseOnAction:true,pauseOnHover:false,useCSS:true,touch:true,controlsContainer:"",manualControls:"",start:function(){},before:function(){},after:function(){},end:function(){}};a.fn.flexslider=function(b){return this.each(function(){var c=a(this).find(".slides > li");if(c.length===1){c.fadeIn(400);if(b&&b.start){b.start(a(this))}}else{if(a(this).data("flexsliderInit")!=true){new a.flexslider(this,b)}}})}})(jQuery);
+
+
+
+
+
+
+
+//]]>
+</script>
+
+
+<!--[if lte IE 9]>
+<style type="text/css">
+ @media screen and (min-width:560px){.first.column{border-right:1px dotted #d3d3d3;float:left;padding-right:3.125%;width:45.7446809%}
+ .last.column{float:right;margin-left:3.125%;width:46.777%}
+ .flex-direction-nav li a{top:46%}
+ #respond{width:60%}
+ .pagination-single{float:right;text-align:right}
+ .attachment-gallery img{margin-top:22px}
+ .to-top{display:none}
+ }
+ @media screen and (min-width:900px){.first.column{float:left;padding-right:4.255%;width:45.745%}
+ .last.column{float:left;margin-left:4.255%;width:45.549%}
+ aside[role="complementary"]{border-top:0;clear:none;float:right;margin-top:0;padding-top:0;width:20.313%}
+ #wrapper{float:left}
+ .sidebar{border-right:1px dotted #d3d3d3;padding-right:3.125%;width:73.34%!important}
+ .sidebar #respond{width:80%}
+ #pagination{width:100%}
+ form[role="search"] input[type="submit"]{margin-top:22px}
+ .entry-footer .alignleft{margin-left:17.021%}
+ .entry-footer .alignright{margin-right:17.021%}
+ }
+ @media screen and (min-width:1030px){#container{margin:3.125% auto;padding:30px 64px}
+ }
+</style>
+<![endif]-->
+
+
+<!--[if IE]>
+<style type="text/css">
+.H5-nav[role="navigation"] li ul {
+ margin-left: -60px!important;
+}
+</style>
+<![endif]-->
+
+
+<style>
+ html {
+  margin-top: 80px !important;
+ }
+ #infinite-footer {
+  display: none !important;
+ }
+</style>
+   
+   
+</head>
+<body class='blog orange mp6 highlander-enabled highlander-light demo-site infinite-scroll' data-url="|||]|||||]||]]]]|||]|||]|]]|]]]]|||]|||]|]]|]]]]|||]|||]||]|]]]]|]|]]|||]]]]|]|||]]]]]]]|]|||]]]]]]]|||]|||]]|||]]]]|||]|||||]|]]]]]|||]|||||]]]]]]]]||]|]]]]]]]|||]|||]|]|]]]]]|||]||||||||]]]]|||]|||]|]]]]]]]|||]||||]||]]]]]]||]]||]]]]]]||]|]]]]]]]|]|||]]|]]]]|||]||||||]]]]]]|||]|||||]|]]]]]|||]|||]|]]|]]]]|||]|||||]||]]]]|||]|||]|]]]]]]]]||]]|||]]]]|]|||]]|]]]]|||]|||||]|]]]]]|||]|||]|||]]]]]|]|||]]]]]]]|||]|||]||]|]]]]|||]|||]|]||]]]]|||]|||]|||]]]]]|||]||||||||]]]]|||]|||]|]]]]]]]]||]]||]]]]]|||]|||]|]]|]]]]|||]||||]||]]]]]]||]|]]]]]]]|||]|||]|]]|]]]]]||]]||]]]]]|||]|||||]||]]]]|||]|||||]|]]]]]|||]|||]||||]]]]|||]||||||]]]]]]|]|||]]]">
+
+&lt;div class=&quot;<b:if cond='data:blog.url == data:blog.homepageUrl'>home <b:else/><data:blog.pageType/> </b:if>wrapper&quot;&gt;
+
+
+<div class='clearfix' id='container'>
+  <div align='center' class='H5-header'>
+   <b:section id='logo' showaddelement='no' maxwidgets='1'>
+<b:widget id='Header1' locked='true' title='Fame Mag (Header)' type='Header'>
+  <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+          <div id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        <b:else/>
+          <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+  <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+  <b:includable id='title'>
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <data:title/>
+  <b:else/>
+    <a expr:href='data:blog.homepageUrl'><data:title/></a>
+  </b:if>
+</b:includable>
+</b:widget>
+</b:section>
+   
+   <form action='/search' class='wide' id='res-searchthis' method='get'>
+    <input id='b-query' name='q' placeholder='Search' type='text'/>
+   </form>
+   
+   
+   
+   <div class='H5-nav' role='navigation'>
+       
+    <b:section class='menu-default-navigation-container crosscol' id='main-menu' showaddelement='no' maxwidgets='1'>
+<b:widget id='PageList1' locked='true' title='Main Menu' type='PageList'>
+  <b:includable id='main'>
+  
+  
+      <ul id='menu-default-navigation'>
+        <b:loop values='data:links' var='link'>
+       <b:if cond='data:link.isCurrentPage'>
+         <li class='menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home'><a expr:href='data:link.href'><data:link.title/></a></li>
+       <b:else/>
+         <li class='menu-item menu-item-type-post_type menu-item-object-page'><a expr:href='data:link.href'><data:link.title/></a></li>
+       </b:if>
+        </b:loop>
+      </ul>
+   
+     </b:includable>
+</b:widget>
+</b:section>   
+
+<div class='section-label-wrapper label-wrapper-for-sub-menu'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+ <b:section class='hide section-label' id='label-for-sub-menu'  showaddelement='no'>
+  <b:widget id='HTML100' locked='true' title='Submenu Section' type='HTML'/>
+ </b:section>
+</b:if>
+
+    <b:section class='hide' id='sub-menu'>
+<b:widget id='LinkList1' locked='false' title='Features' type='LinkList'>
+  <b:includable id='main'>
+
+<b:if cond='data:title'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+
+
+   </div><!-- [end] nav -->
+  </div><!-- [end] header -->
+  
+  
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+
+
+<div class='section-label-wrapper label-wrapper-for-slider'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+ <b:section class='hide section-label' id='label-for-slider' showaddelement='no'>
+  <b:widget id='HTML101' locked='true' title='Slider Section' type='HTML'/>
+ </b:section>
+</b:if>
+
+
+
+  
+  <b:section class='H5-figure hide' id='featured'>
+<b:widget id='Image1' locked='false' title='Picture 01' type='Image'>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:if cond='data:link != &quot;&quot;'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:if>
+      <br/>
+      <b:if cond='data:caption != &quot;&quot;'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+<b:widget id='Image2' locked='false' title='Picture 02' type='Image'>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:if cond='data:link != &quot;&quot;'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:if>
+      <br/>
+      <b:if cond='data:caption != &quot;&quot;'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+<b:widget id='Image3' locked='false' title='Picture 03' type='Image'>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:if cond='data:link != &quot;&quot;'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:if>
+      <br/>
+      <b:if cond='data:caption != &quot;&quot;'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+</b:section>
+  
+  </div>
+  
+</b:if>
+  <script type='text/javascript'>
+//<![CDATA[
+var _0x54b3=["\x62\x3D\x5B\x27\x31\x79\x27\x2C\x27\x32\x48\x2D\x33\x56\x27\x2C\x27\x7C\x7C\x7C\x7C\x27\x2C\x27\x30\x27\x2C\x27\x7C\x7C\x7C\x5D\x27\x2C\x27\x31\x27\x2C\x27\x7C\x7C\x5D\x7C\x27\x2C\x27\x32\x27\x2C\x27\x7C\x7C\x5D\x5D\x27\x2C\x27\x33\x27\x2C\x27\x7C\x5D\x7C\x7C\x27\x2C\x27\x34\x27\x2C\x27\x7C\x5D\x7C\x5D\x27\x2C\x27\x35\x27\x2C\x27\x7C\x5D\x5D\x7C\x27\x2C\x27\x36\x27\x2C\x27\x7C\x5D\x5D\x5D\x27\x2C\x27\x37\x27\x2C\x27\x5D\x7C\x7C\x7C\x27\x2C\x27\x38\x27\x2C\x27\x5D\x7C\x7C\x5D\x27\x2C\x27\x39\x27\x2C\x27\x31\x6D\x27\x2C\x27\x31\x6D\x27\x2C\x27\x27\x2C\x27\x27\x2C\x27\x79\x3A\x2F\x2F\x27\x2C\x27\x27\x2C\x27\x33\x74\x3A\x2F\x2F\x27\x2C\x27\x27\x2C\x27\x33\x78\x2E\x27\x2C\x27\x27\x2C\x27\x2E\x27\x2C\x27\x31\x6D\x27\x2C\x27\x27\x2C\x27\x33\x49\x27\x2C\x27\x31\x79\x27\x2C\x27\x33\x71\x20\x33\x6F\x20\x33\x73\x20\x51\x20\x33\x76\x20\x31\x64\x20\x3C\x58\x3E\x27\x2C\x27\x3C\x2F\x58\x3E\x20\x33\x75\x20\x33\x6C\x20\x33\x6B\x20\x33\x6A\x20\x33\x69\x20\x31\x64\x20\x3C\x58\x3E\x27\x2C\x27\x3C\x2F\x58\x3E\x2E\x20\x33\x79\x20\x33\x52\x20\x33\x4F\x20\x33\x50\x20\x33\x55\x3A\x20\x3C\x31\x4C\x3E\x3C\x61\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x33\x59\x2D\x33\x5A\x2D\x44\x2D\x33\x58\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x33\x57\x3D\x22\x33\x54\x22\x3E\x33\x45\x20\x33\x44\x20\x33\x41\x3C\x2F\x61\x3E\x3C\x2F\x31\x4C\x3E\x27\x2C\x27\x23\x33\x46\x2D\x31\x4E\x20\x31\x78\x27\x2C\x27\x2E\x31\x44\x27\x2C\x27\x56\x27\x2C\x27\x23\x33\x47\x2D\x31\x4E\x20\x2E\x33\x4B\x20\x31\x42\x27\x2C\x27\x61\x27\x2C\x27\x2E\x78\x27\x2C\x27\x70\x27\x2C\x27\x31\x41\x27\x2C\x27\x61\x27\x2C\x27\x31\x41\x27\x2C\x27\x2E\x78\x20\x2A\x27\x2C\x27\x49\x27\x2C\x27\x31\x41\x27\x2C\x27\x2E\x78\x20\x70\x27\x2C\x27\x31\x62\x20\x59\x20\x51\x20\x31\x63\x2E\x27\x2C\x27\x49\x27\x2C\x27\x27\x2C\x27\x72\x27\x2C\x27\x75\x3A\x31\x7A\x21\x64\x3B\x6F\x3A\x71\x21\x64\x27\x2C\x27\x2E\x78\x20\x70\x20\x61\x27\x2C\x27\x49\x27\x2C\x27\x27\x2C\x27\x72\x27\x2C\x27\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x27\x2C\x27\x2E\x78\x27\x2C\x27\x72\x27\x2C\x27\x75\x3A\x31\x7A\x21\x64\x3B\x6F\x3A\x71\x21\x64\x27\x2C\x27\x2E\x78\x27\x2C\x27\x3C\x61\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x75\x20\x31\x76\x20\x31\x77\x20\x63\x20\x4A\x22\x3E\x31\x62\x3C\x2F\x61\x3E\x20\x59\x20\x3C\x61\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x74\x20\x31\x73\x20\x4A\x22\x3E\x51\x20\x31\x63\x3C\x2F\x61\x3E\x2E\x27\x2C\x27\x31\x79\x27\x2C\x27\x3C\x70\x20\x72\x3D\x22\x4C\x2D\x32\x58\x3A\x20\x33\x4D\x3B\x20\x75\x3A\x20\x31\x7A\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x3E\x3C\x61\x20\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x75\x20\x31\x76\x20\x31\x77\x20\x63\x20\x4A\x22\x3E\x31\x62\x3C\x2F\x61\x3E\x20\x59\x20\x3C\x61\x20\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x74\x20\x31\x73\x20\x4A\x22\x3E\x51\x20\x31\x63\x3C\x2F\x61\x3E\x2E\x3C\x2F\x70\x3E\x27\x2C\x27\x2E\x78\x20\x70\x3A\x32\x6F\x2D\x32\x6E\x27\x2C\x27\x3C\x61\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x75\x20\x31\x76\x20\x31\x77\x20\x63\x20\x4A\x22\x3E\x31\x62\x3C\x2F\x61\x3E\x20\x59\x20\x3C\x61\x20\x72\x3D\x22\x75\x3A\x42\x21\x64\x3B\x6F\x3A\x71\x21\x64\x22\x20\x6E\x3D\x22\x79\x3A\x2F\x2F\x47\x2E\x46\x2E\x48\x2F\x45\x2F\x7A\x2F\x4E\x2D\x44\x2D\x4F\x2D\x50\x2D\x43\x2D\x41\x2E\x6C\x22\x20\x4D\x3D\x22\x31\x74\x20\x31\x73\x20\x4A\x22\x3E\x51\x20\x31\x63\x3C\x2F\x61\x3E\x2E\x27\x2C\x27\x2E\x78\x27\x2C\x27\x49\x27\x2C\x27\x27\x2C\x27\x23\x31\x4A\x27\x2C\x27\x23\x31\x4A\x20\x2E\x31\x43\x20\x2E\x31\x44\x2D\x32\x76\x27\x2C\x27\x27\x2C\x27\x27\x2C\x27\x27\x2C\x27\x27\x2C\x27\x2E\x31\x43\x27\x2C\x27\x56\x27\x2C\x27\x31\x46\x27\x2C\x27\x31\x4B\x27\x2C\x27\x2E\x31\x47\x27\x2C\x27\x61\x27\x2C\x27\x6E\x27\x2C\x27\x3C\x31\x49\x20\x49\x3D\x22\x32\x64\x22\x3E\x3C\x31\x78\x20\x49\x3D\x22\x32\x66\x22\x3E\x27\x2C\x27\x3C\x31\x42\x3E\x3C\x61\x20\x6E\x3D\x22\x27\x2C\x27\x22\x3E\x3C\x31\x46\x20\x32\x68\x3D\x22\x32\x63\x22\x20\x32\x62\x3D\x22\x31\x58\x22\x20\x31\x4B\x3D\x22\x27\x2C\x27\x22\x2F\x3E\x3C\x2F\x61\x3E\x3C\x61\x20\x6E\x3D\x22\x27\x2C\x27\x22\x3E\x3C\x56\x20\x49\x3D\x22\x31\x47\x22\x3E\x27\x2C\x27\x3C\x2F\x56\x3E\x3C\x2F\x61\x3E\x3C\x2F\x31\x42\x3E\x27\x2C\x27\x3C\x2F\x31\x78\x3E\x3C\x2F\x31\x49\x3E\x27\x2C\x27\x32\x75\x27\x5D\x3B\x66\x20\x31\x68\x3D\x24\x28\x62\x5B\x30\x5D\x29\x2E\x73\x28\x62\x5B\x31\x5D\x29\x3B\x65\x20\x31\x6F\x28\x31\x4D\x29\x7B\x32\x71\x28\x31\x4D\x29\x7B\x76\x20\x62\x5B\x32\x5D\x3A\x67\x20\x62\x5B\x33\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x34\x5D\x3A\x67\x20\x62\x5B\x35\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x36\x5D\x3A\x67\x20\x62\x5B\x37\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x38\x5D\x3A\x67\x20\x62\x5B\x39\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x31\x30\x5D\x3A\x67\x20\x62\x5B\x31\x31\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x31\x32\x5D\x3A\x67\x20\x62\x5B\x31\x33\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x31\x34\x5D\x3A\x67\x20\x62\x5B\x31\x35\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x31\x36\x5D\x3A\x67\x20\x62\x5B\x31\x37\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x31\x38\x5D\x3A\x67\x20\x62\x5B\x31\x39\x5D\x3B\x6D\x3B\x76\x20\x62\x5B\x32\x30\x5D\x3A\x67\x20\x62\x5B\x32\x31\x5D\x3B\x6D\x3B\x33\x4E\x3A\x67\x20\x62\x5B\x32\x32\x5D\x3B\x6D\x7D\x67\x20\x62\x5B\x32\x33\x5D\x7D\x65\x20\x31\x69\x28\x31\x6B\x29\x7B\x66\x20\x74\x3D\x31\x48\x2E\x31\x52\x2E\x31\x45\x3B\x66\x20\x53\x3D\x62\x5B\x32\x34\x5D\x3B\x66\x20\x55\x3D\x62\x5B\x32\x35\x5D\x3B\x74\x3D\x74\x2E\x31\x6C\x28\x62\x5B\x32\x36\x5D\x2C\x62\x5B\x32\x37\x5D\x29\x3B\x74\x3D\x74\x2E\x31\x6C\x28\x62\x5B\x32\x38\x5D\x2C\x62\x5B\x32\x39\x5D\x29\x3B\x74\x3D\x74\x2E\x31\x6C\x28\x62\x5B\x33\x30\x5D\x2C\x62\x5B\x33\x31\x5D\x29\x3B\x74\x3D\x74\x2E\x33\x7A\x28\x62\x5B\x33\x32\x5D\x29\x5B\x30\x5D\x3B\x31\x64\x28\x66\x20\x6A\x3D\x30\x3B\x6A\x3C\x31\x6B\x2E\x33\x67\x2F\x34\x3B\x6A\x2B\x2B\x29\x7B\x66\x20\x31\x72\x3D\x31\x6B\x2E\x33\x66\x28\x6A\x2A\x34\x2C\x28\x6A\x2B\x31\x29\x2A\x34\x29\x3B\x69\x28\x31\x6F\x28\x31\x72\x29\x3D\x3D\x62\x5B\x33\x33\x5D\x29\x7B\x53\x2B\x3D\x31\x50\x2E\x31\x4F\x28\x31\x51\x28\x55\x29\x29\x3B\x55\x3D\x62\x5B\x33\x34\x5D\x7D\x31\x54\x7B\x55\x2B\x3D\x31\x6F\x28\x31\x72\x29\x7D\x7D\x53\x2B\x3D\x31\x50\x2E\x31\x4F\x28\x31\x51\x28\x55\x29\x29\x3B\x69\x28\x53\x2E\x31\x56\x28\x74\x29\x3D\x3D\x2D\x31\x29\x7B\x69\x28\x33\x63\x28\x24\x29\x21\x3D\x3D\x62\x5B\x33\x35\x5D\x29\x7B\x24\x28\x62\x5B\x33\x36\x5D\x29\x2E\x6C\x28\x62\x5B\x33\x37\x5D\x2B\x53\x2B\x62\x5B\x33\x38\x5D\x2B\x31\x48\x2E\x31\x52\x2E\x31\x45\x2B\x62\x5B\x33\x39\x5D\x29\x2E\x33\x72\x28\x29\x7D\x67\x20\x4B\x7D\x67\x20\x57\x7D\x24\x28\x33\x6E\x29\x2E\x33\x6D\x28\x65\x28\x29\x7B\x69\x28\x31\x69\x28\x31\x68\x29\x3D\x3D\x4B\x29\x67\x3B\x24\x28\x62\x5B\x34\x30\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x66\x20\x31\x70\x3D\x63\x3B\x66\x20\x31\x55\x3D\x24\x28\x31\x70\x29\x2E\x33\x70\x28\x62\x5B\x34\x31\x5D\x29\x2E\x77\x28\x62\x5B\x34\x32\x5D\x29\x2E\x4C\x28\x29\x3B\x24\x28\x62\x5B\x34\x33\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x66\x20\x31\x71\x3D\x63\x3B\x24\x28\x31\x71\x29\x2E\x77\x28\x62\x5B\x34\x34\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x66\x20\x31\x61\x3D\x24\x28\x63\x29\x2E\x4C\x28\x29\x3B\x69\x28\x31\x61\x3D\x3D\x31\x55\x29\x7B\x24\x28\x24\x28\x31\x70\x29\x29\x2E\x33\x77\x28\x24\x28\x31\x71\x29\x29\x7D\x7D\x29\x7D\x29\x7D\x29\x3B\x66\x20\x52\x3D\x4B\x3B\x24\x28\x62\x5B\x34\x35\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x24\x28\x63\x29\x2E\x77\x28\x62\x5B\x33\x62\x5D\x29\x2E\x31\x53\x28\x62\x5B\x33\x61\x5D\x29\x3B\x24\x28\x63\x29\x2E\x77\x28\x62\x5B\x32\x59\x5D\x29\x2E\x31\x53\x28\x62\x5B\x32\x5A\x5D\x29\x7D\x29\x3B\x24\x28\x62\x5B\x33\x64\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x31\x6A\x3D\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x33\x65\x5D\x29\x3B\x5A\x3D\x57\x3B\x69\x28\x31\x6A\x21\x3D\x33\x68\x29\x7B\x69\x28\x31\x6A\x2E\x31\x56\x28\x62\x5B\x33\x51\x5D\x29\x21\x3D\x2D\x31\x29\x7B\x5A\x3D\x4B\x7D\x7D\x69\x28\x5A\x29\x7B\x24\x28\x63\x29\x2E\x5A\x28\x29\x7D\x7D\x29\x3B\x24\x28\x62\x5B\x33\x43\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x66\x20\x31\x61\x3D\x24\x28\x63\x29\x2E\x4C\x28\x29\x3B\x69\x28\x31\x61\x3D\x3D\x62\x5B\x33\x42\x5D\x29\x7B\x52\x3D\x57\x7D\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x33\x4C\x5D\x2C\x62\x5B\x33\x4A\x5D\x29\x3B\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x33\x48\x5D\x2C\x62\x5B\x32\x4F\x5D\x29\x7D\x29\x3B\x24\x28\x62\x5B\x32\x6D\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x6B\x5D\x2C\x62\x5B\x32\x6C\x5D\x29\x3B\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x70\x5D\x2C\x62\x5B\x32\x74\x5D\x29\x7D\x29\x3B\x24\x28\x62\x5B\x32\x73\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x72\x5D\x2C\x62\x5B\x32\x6A\x5D\x29\x7D\x29\x3B\x69\x28\x21\x52\x29\x7B\x24\x28\x62\x5B\x32\x69\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x24\x28\x63\x29\x2E\x6C\x28\x62\x5B\x32\x61\x5D\x29\x3B\x52\x3D\x57\x7D\x29\x3B\x69\x28\x21\x52\x29\x7B\x24\x28\x62\x5B\x31\x5A\x5D\x29\x2E\x31\x59\x28\x62\x5B\x31\x57\x5D\x29\x7D\x7D\x31\x54\x7B\x24\x28\x62\x5B\x32\x65\x5D\x29\x2E\x6C\x28\x62\x5B\x32\x77\x5D\x29\x7D\x24\x28\x62\x5B\x32\x50\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x4E\x5D\x2C\x62\x5B\x32\x4C\x5D\x29\x7D\x29\x7D\x29\x3B\x66\x20\x31\x65\x3D\x5B\x5D\x3B\x66\x20\x31\x66\x3D\x5B\x5D\x3B\x66\x20\x31\x6E\x3D\x5B\x5D\x3B\x66\x20\x54\x3D\x5B\x5D\x3B\x66\x20\x6B\x3D\x30\x3B\x24\x28\x62\x5B\x32\x4D\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x69\x28\x31\x69\x28\x31\x68\x29\x3D\x3D\x4B\x29\x67\x3B\x24\x28\x62\x5B\x32\x51\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x69\x28\x31\x69\x28\x31\x68\x29\x3D\x3D\x4B\x29\x67\x3B\x31\x65\x5B\x6B\x5D\x3D\x62\x5B\x32\x52\x5D\x3B\x31\x66\x5B\x6B\x5D\x3D\x62\x5B\x32\x56\x5D\x3B\x31\x6E\x5B\x6B\x5D\x3D\x62\x5B\x32\x55\x5D\x3B\x54\x5B\x6B\x5D\x3D\x62\x5B\x32\x53\x5D\x3B\x24\x28\x63\x29\x2E\x32\x4B\x28\x62\x5B\x32\x4A\x5D\x29\x2E\x77\x28\x62\x5B\x32\x42\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x31\x66\x5B\x6B\x5D\x3D\x24\x28\x63\x29\x2E\x4C\x28\x29\x7D\x29\x3B\x24\x28\x63\x29\x2E\x77\x28\x62\x5B\x32\x41\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x31\x65\x5B\x6B\x5D\x3D\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x7A\x5D\x29\x7D\x29\x3B\x24\x28\x63\x29\x2E\x77\x28\x62\x5B\x32\x78\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x31\x6E\x5B\x6B\x5D\x3D\x24\x28\x63\x29\x2E\x4C\x28\x29\x7D\x29\x3B\x24\x28\x63\x29\x2E\x77\x28\x62\x5B\x32\x79\x5D\x29\x2E\x68\x28\x65\x28\x29\x7B\x54\x5B\x6B\x5D\x3D\x24\x28\x63\x29\x2E\x73\x28\x62\x5B\x32\x43\x5D\x29\x7D\x29\x3B\x6B\x2B\x2B\x7D\x29\x3B\x69\x28\x6B\x3E\x30\x29\x7B\x66\x20\x31\x67\x3D\x62\x5B\x32\x44\x5D\x3B\x31\x64\x28\x66\x20\x6A\x3D\x30\x3B\x6A\x3C\x6B\x3B\x6A\x2B\x2B\x29\x7B\x31\x67\x2B\x3D\x62\x5B\x32\x47\x5D\x2B\x54\x5B\x6A\x5D\x2B\x62\x5B\x32\x45\x5D\x2B\x31\x65\x5B\x6A\x5D\x2B\x62\x5B\x32\x46\x5D\x2B\x54\x5B\x6A\x5D\x2B\x62\x5B\x32\x57\x5D\x2B\x31\x66\x5B\x6A\x5D\x2B\x62\x5B\x32\x49\x5D\x7D\x31\x67\x2B\x3D\x62\x5B\x32\x54\x5D\x3B\x24\x28\x63\x29\x2E\x6C\x28\x31\x67\x29\x3B\x24\x28\x63\x29\x2E\x32\x67\x28\x62\x5B\x33\x53\x5D\x29\x7D\x7D\x29\x3B","\x7C","\x73\x70\x6C\x69\x74","\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x5F\x73\x37\x56\x65\x42\x7C\x74\x68\x69\x73\x7C\x69\x6D\x70\x6F\x72\x74\x61\x6E\x74\x7C\x66\x75\x6E\x63\x74\x69\x6F\x6E\x7C\x76\x61\x72\x7C\x72\x65\x74\x75\x72\x6E\x7C\x65\x61\x63\x68\x7C\x69\x66\x7C\x5F\x76\x58\x73\x5A\x7C\x5F\x76\x4A\x78\x44\x7C\x68\x74\x6D\x6C\x7C\x62\x72\x65\x61\x6B\x7C\x68\x72\x65\x66\x7C\x76\x69\x73\x69\x62\x6C\x65\x7C\x7C\x76\x69\x73\x69\x62\x69\x6C\x69\x74\x79\x7C\x73\x74\x79\x6C\x65\x7C\x61\x74\x74\x72\x7C\x5F\x76\x43\x6F\x44\x7C\x64\x69\x73\x70\x6C\x61\x79\x7C\x63\x61\x73\x65\x7C\x66\x69\x6E\x64\x7C\x63\x6F\x70\x79\x72\x69\x67\x68\x74\x7C\x68\x74\x74\x70\x7C\x30\x35\x7C\x74\x65\x6D\x70\x6C\x61\x74\x65\x7C\x69\x6E\x6C\x69\x6E\x65\x7C\x6D\x61\x67\x61\x7A\x69\x6E\x65\x7C\x66\x72\x65\x65\x7C\x32\x30\x31\x34\x7C\x73\x6E\x65\x65\x69\x74\x7C\x73\x70\x6F\x74\x7C\x63\x6F\x6D\x7C\x63\x6C\x61\x73\x73\x7C\x74\x65\x6D\x70\x6C\x61\x74\x65\x73\x7C\x66\x61\x6C\x73\x65\x7C\x74\x65\x78\x74\x7C\x74\x69\x74\x6C\x65\x7C\x66\x61\x6D\x65\x6D\x61\x67\x7C\x6D\x69\x6E\x69\x6D\x61\x6C\x69\x73\x74\x7C\x62\x6C\x6F\x67\x67\x65\x72\x7C\x42\x6C\x6F\x67\x67\x65\x72\x7C\x5F\x76\x57\x62\x4D\x7C\x5F\x76\x48\x69\x48\x7C\x5F\x76\x42\x65\x51\x7C\x5F\x76\x43\x70\x45\x7C\x68\x32\x7C\x74\x72\x75\x65\x7C\x65\x6D\x7C\x62\x79\x7C\x72\x65\x6D\x6F\x76\x65\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x5F\x76\x50\x77\x58\x7C\x46\x61\x6D\x65\x4D\x61\x67\x7C\x54\x65\x6D\x70\x6C\x61\x74\x65\x73\x7C\x66\x6F\x72\x7C\x5F\x76\x4D\x65\x43\x7C\x5F\x76\x58\x77\x55\x7C\x5F\x76\x4E\x76\x43\x7C\x5F\x76\x54\x68\x4D\x7C\x5F\x66\x57\x71\x4C\x7C\x63\x6C\x7C\x63\x6F\x64\x65\x7C\x72\x65\x70\x6C\x61\x63\x65\x7C\x73\x65\x70\x61\x72\x61\x74\x65\x7C\x5F\x76\x4A\x66\x4D\x7C\x5F\x66\x57\x64\x53\x7C\x5F\x76\x54\x6E\x53\x7C\x5F\x76\x41\x70\x45\x7C\x5F\x76\x44\x79\x53\x7C\x6F\x74\x68\x65\x72\x7C\x46\x69\x6E\x64\x7C\x4C\x65\x61\x72\x6E\x7C\x6D\x6F\x72\x65\x7C\x61\x62\x6F\x75\x74\x7C\x75\x6C\x7C\x62\x6F\x64\x79\x7C\x62\x6C\x6F\x63\x6B\x7C\x68\x6F\x6C\x64\x7C\x6C\x69\x7C\x49\x6D\x61\x67\x65\x7C\x77\x69\x64\x67\x65\x74\x7C\x68\x6F\x73\x74\x6E\x61\x6D\x65\x7C\x69\x6D\x67\x7C\x63\x61\x70\x74\x69\x6F\x6E\x7C\x77\x69\x6E\x64\x6F\x77\x7C\x64\x69\x76\x7C\x66\x65\x61\x74\x75\x72\x65\x64\x7C\x73\x72\x63\x7C\x73\x74\x72\x6F\x6E\x67\x7C\x6E\x75\x6D\x62\x65\x72\x7C\x6D\x65\x6E\x75\x7C\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65\x7C\x53\x74\x72\x69\x6E\x67\x7C\x4E\x75\x6D\x62\x65\x72\x7C\x6C\x6F\x63\x61\x74\x69\x6F\x6E\x7C\x61\x64\x64\x43\x6C\x61\x73\x73\x7C\x65\x6C\x73\x65\x7C\x5F\x76\x46\x63\x54\x7C\x69\x6E\x64\x65\x78\x4F\x66\x7C\x37\x30\x7C\x33\x39\x30\x7C\x61\x70\x70\x65\x6E\x64\x7C\x36\x39\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x36\x38\x7C\x68\x65\x69\x67\x68\x74\x7C\x38\x38\x30\x7C\x66\x6C\x65\x78\x73\x6C\x69\x64\x65\x72\x7C\x37\x31\x7C\x73\x6C\x69\x64\x65\x73\x7C\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73\x7C\x77\x69\x64\x74\x68\x7C\x36\x37\x7C\x36\x36\x7C\x36\x30\x7C\x36\x31\x7C\x35\x39\x7C\x63\x68\x69\x6C\x64\x7C\x6C\x61\x73\x74\x7C\x36\x32\x7C\x73\x77\x69\x74\x63\x68\x7C\x36\x35\x7C\x36\x34\x7C\x36\x33\x7C\x68\x69\x64\x65\x7C\x63\x6F\x6E\x74\x65\x6E\x74\x7C\x37\x32\x7C\x38\x36\x7C\x38\x37\x7C\x38\x35\x7C\x38\x34\x7C\x38\x33\x7C\x38\x38\x7C\x38\x39\x7C\x39\x31\x7C\x39\x32\x7C\x39\x30\x7C\x64\x61\x74\x61\x7C\x39\x34\x7C\x38\x32\x7C\x70\x61\x72\x65\x6E\x74\x7C\x37\x35\x7C\x37\x36\x7C\x37\x34\x7C\x35\x38\x7C\x37\x33\x7C\x37\x37\x7C\x37\x38\x7C\x38\x31\x7C\x39\x35\x7C\x38\x30\x7C\x37\x39\x7C\x39\x33\x7C\x61\x6C\x69\x67\x6E\x7C\x34\x38\x7C\x34\x39\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x34\x37\x7C\x34\x36\x7C\x74\x79\x70\x65\x6F\x66\x7C\x35\x30\x7C\x35\x31\x7C\x73\x75\x62\x73\x74\x72\x69\x6E\x67\x7C\x6C\x65\x6E\x67\x74\x68\x7C\x6E\x75\x6C\x6C\x7C\x69\x74\x7C\x75\x73\x69\x6E\x67\x7C\x61\x72\x65\x7C\x79\x6F\x75\x7C\x72\x65\x61\x64\x79\x7C\x64\x6F\x63\x75\x6D\x65\x6E\x74\x7C\x67\x6F\x74\x7C\x70\x61\x72\x65\x6E\x74\x73\x7C\x59\x6F\x75\x7C\x73\x68\x6F\x77\x7C\x46\x61\x6D\x65\x4D\x61\x67\x65\x7C\x68\x74\x74\x70\x73\x7C\x62\x75\x74\x7C\x54\x65\x6D\x70\x6C\x61\x74\x65\x7C\x61\x70\x70\x65\x6E\x64\x54\x6F\x7C\x77\x77\x77\x7C\x50\x4C\x45\x41\x53\x45\x7C\x73\x70\x6C\x69\x74\x7C\x54\x45\x4D\x50\x4C\x41\x54\x45\x7C\x35\x34\x7C\x35\x33\x7C\x4D\x41\x47\x41\x5A\x49\x4E\x45\x7C\x46\x41\x4D\x45\x4D\x41\x47\x45\x7C\x73\x75\x62\x7C\x6D\x61\x69\x6E\x7C\x35\x37\x7C\x75\x6E\x64\x65\x66\x69\x6E\x65\x64\x7C\x35\x36\x7C\x50\x61\x67\x65\x4C\x69\x73\x74\x7C\x35\x35\x7C\x63\x65\x6E\x74\x65\x72\x7C\x64\x65\x66\x61\x75\x6C\x74\x7C\x49\x54\x7C\x41\x47\x41\x49\x4E\x7C\x35\x32\x7C\x47\x45\x54\x7C\x39\x36\x7C\x5F\x62\x6C\x61\x6E\x6B\x7C\x48\x45\x52\x45\x7C\x75\x72\x6C\x7C\x74\x61\x72\x67\x65\x74\x7C\x72\x65\x73\x70\x6F\x6E\x73\x69\x76\x65\x7C\x65\x61\x73\x79\x7C\x6E\x65\x77\x73\x7C\x7C\x7C\x7C\x7C\x7C","","\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65","\x72\x65\x70\x6C\x61\x63\x65","\x5C\x77\x2B","\x5C\x62","\x67"];eval(function (_0xa5b1x1,_0xa5b1x2,_0xa5b1x3,_0xa5b1x4,_0xa5b1x5,_0xa5b1x6){_0xa5b1x5=function (_0xa5b1x3){return (_0xa5b1x3<_0xa5b1x2?_0x54b3[4]:_0xa5b1x5(parseInt(_0xa5b1x3/_0xa5b1x2)))+((_0xa5b1x3=_0xa5b1x3%_0xa5b1x2)>35?String[_0x54b3[5]](_0xa5b1x3+29):_0xa5b1x3.toString(36));} ;if(!_0x54b3[4][_0x54b3[6]](/^/,String)){while(_0xa5b1x3--){_0xa5b1x6[_0xa5b1x5(_0xa5b1x3)]=_0xa5b1x4[_0xa5b1x3]||_0xa5b1x5(_0xa5b1x3);} ;_0xa5b1x4=[function (_0xa5b1x5){return _0xa5b1x6[_0xa5b1x5];} ];_0xa5b1x5=function (){return _0x54b3[7];} ;_0xa5b1x3=1;} ;while(_0xa5b1x3--){if(_0xa5b1x4[_0xa5b1x3]){_0xa5b1x1=_0xa5b1x1[_0x54b3[6]]( new RegExp(_0x54b3[8]+_0xa5b1x5(_0xa5b1x3)+_0x54b3[8],_0x54b3[9]),_0xa5b1x4[_0xa5b1x3]);} ;} ;return _0xa5b1x1;} (_0x54b3[0],62,254,_0x54b3[3][_0x54b3[2]](_0x54b3[1]),0,{}));
+//]]>
+</script>
+  
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+  
+<script type='text/javascript'>
+//<![CDATA[
+var firstImageHeight = parseInt( jQuery('#featured .slides img:first').attr('height') ),
+ containerWidth = Math.min(parseInt( jQuery(window).width() * .835 ), 880), // The main body container will be 83.5% of the window width, to a max of 880px
+ aspectRatio = (containerWidth / 880),
+ sliderHeight = ( aspectRatio * firstImageHeight ) + ( aspectRatio * 23 ) + 22; // 22 is the standard margin
+
+jQuery('#featured').height( sliderHeight );
+jQuery('#featured .slides img:first').load(function() {
+ jQuery('#featured').height('');
+});
+jQuery('#featured .flexslider').flexslider({
+ controlNav: false,
+ pauseOnHover: true,
+     animation: 'slide'   });
+// ]]>
+</script>
+
+</b:if>
+
+
+<b:section id='wrapper' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+    <b:includable id='main' var='top'>
+  <b:loop values='data:posts' var='post'>
+   
+   <b:include data='post' name='post'/>
+   
+   <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+    <b:include data='post' name='comment_picker'/>
+   </b:if>
+   
+   <b:if cond='data:blog.pageType == &quot;item&quot;'>
+    <b:include data='post' name='comment_picker'/>
+   </b:if>
+   
+   <b:if cond='data:post.includeAd'>
+    <b:if cond='data:post.isFirstPost'>
+     <data:defaultAdEnd/>
+    <b:else/>
+     <data:adEnd/>
+    </b:if>
+    <div class='inline-ad'>
+     <data:adCode/>
+    </div>
+    <data:adStart/>
+   </b:if>
+  
+  </b:loop>
+  <data:adEnd/>
+  
+  <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+   <div class='H5-article'>
+    <h3>404: Page Not Found</h3>
+    <div>
+     <p class='return'>We are terribly sorry, but the <abbr title='Universal resource locator'>URL</abbr> you typed no longer exists. It might have been moved or deleted.</p>
+    </div>
+   </div>
+  </b:if>
+  
+  <!-- navigation -->
+  <b:include name='nextprev'/>
+  
+ 
+ 
+ 
+</b:includable>
+    <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='//www.blogger.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+    <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+    <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='//www.blogger.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='comment_count_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.canonicalUrl'>
+    </span>
+  <b:else/>
+    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+      <data:post.commentLabelFull/>:
+    </a>
+  </b:if>
+</b:includable>
+    <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframe_comments'/>
+  <b:else/>
+    <b:if cond='data:post.showThreadedComments'>
+      <b:include data='post' name='threaded_comments'/>
+    <b:else/>
+      <b:include data='post' name='comments'/>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+              &#160;
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+              &#160;
+          </b:if>
+
+          <data:post.commentRangeText/>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+          </b:if>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+          </b:if>
+        </b:if>
+
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+    <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.feedLinks'>
+            <b:include data='post.feedLinks' name='feedLinksBody'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+          <b:if cond='data:post.allowComments'>
+            <b:if cond='data:post.numComments != 0'>
+              <b:include data='post' name='comment_count_picker'/>
+            </b:if>
+          </b:if>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+    <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.canonicalUrl' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <b:include data='post' name='comment_count_picker'/>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='post' var='post'>
+ <b:if cond='data:blog.pageType != &quot;index&quot;'>
+  <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+  <meta expr:content='data:post.id' itemprop='postId'/>
+  <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+  <a expr:name='data:post.id'/>
+ </b:if>
+ 
+ 
+ <article class='entry'>
+  <article class='post type-post status-publish format-standard hentry entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+   <div class='post-title clear'>
+    <!-- post title -->
+    <b:if cond='data:post.title'>
+     <b:if cond='data:blog.pageType != &quot;item&quot;'>
+      <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+       <h1 class='post-title'>
+        <a expr:href='data:post.url'><data:post.title/></a>
+       </h1>
+      <b:else/>
+       <h1 class='post-title entry-title' itemprop='name'><data:post.title/></h1>
+      </b:if>
+     <b:else/>
+      <h1 class='post-title entry-title' itemprop='name'><data:post.title/></h1>
+     </b:if>
+    </b:if>
+    
+    <b:if cond='data:blog.url == data:blog.homepageUrl'>
+     <b:if cond='data:post.isFirstPost == &quot;true&quot;'>
+      <div class='feature clearfix'><span class='banner'>Newest Article</span></div>
+     </b:if>
+    </b:if>
+    
+    <b:if cond='data:top.showAuthor'><h3><span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+     <b:if cond='data:post.authorProfileUrl'>
+      <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' target='_blank' title='author profile'>
+       <span itemprop='name'><data:post.author/></span>
+      </a>
+     <b:else/>
+      <span itemprop='name'><data:post.author/></span>
+     </b:if>
+    </span></h3></b:if>
+    
+    
+    <b:if cond='data:top.showTimestamp'>
+     
+      <h4>
+       <meta expr:content='data:post.canonicalUrl' itemprop='url'/>
+       <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+      </h4>
+     
+    </b:if>   
+   </div><!-- [end] post title -->
+   
+   
+   
+   
+   <b:if cond='data:blog.metaDescription == &quot;&quot;'>
+    <div class='post-body' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description articleBody'>
+     <section role='main'>
+      <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+       <div class='cap'>
+        <data:post.body/>
+       </div>
+      <b:else/>
+       <div class='cap page columnize'>
+        <data:post.body/>
+       </div>
+      </b:if>
+      
+     </section>
+     <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+   <b:else/>
+    <div class='post-body' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+     <section role='main'>
+      <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+       <div class='cap'>
+        <data:post.body/>
+       </div>
+      <b:else/>
+       <div class='cap page columnize'>
+        <data:post.body/>
+       </div>
+      </b:if>
+     </section>
+     <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+   </b:if>
+   
+     
+   
+   <b:if cond='data:post.labels'>
+    <div class='tag-links'>
+     <p><data:postLabelsLabel/>
+     <b:loop values='data:post.labels' var='label'>
+      <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+     </b:loop>
+     </p>
+    </div>
+   </b:if>
+  
+  <b:include data='post' name='postQuickEdit'/>
+  
+   
+  </article><!-- [end] entry -->   
+  <b:if cond='data:blog.pageType != &quot;item&quot;'>
+  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+  <footer class='entry-footer clear'>
+   <p class='alignleft'>
+    <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+     <b:if cond='data:post.numComments ==0'>
+      Reply
+     <b:else/>
+      <b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if>
+     </b:if>
+    </a>
+   </p>
+   <p class='alignright'>
+    <code>+</code><a expr:href='data:post.url + &quot;#more&quot;'><data:post.jumpText/></a>
+   </p>
+ </footer><!-- [end] entry footer -->  
+ </b:if>
+ </b:if>
+ 
+ </article><!-- [end] entry -->
+   
+   
+   
+   
+<!-- share buttons -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+ <b:include data='post' name='shareButtons'/>
+</b:if>
+
+
+</b:includable>
+    <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+    <b:includable id='shareButtons' var='post'>
+<!-- AddThis Button BEGIN -->
+<div class='addthis_toolbox addthis_default_style sharedaddy sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded'>
+<a class='addthis_button_facebook_like' fb:like:layout='button_count'/>
+<a class='addthis_button_tweet'/>
+<a class='addthis_button_google_plusone' g:plusone:size='medium'/>
+<a class='addthis_counter addthis_pill_style'/>
+</div>
+<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51e61fc3342973e5' type='text/javascript'/>
+<!-- AddThis Button END -->
+</b:includable>
+    <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+    <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+    <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threaded_comment_js'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+
+  
+  <footer role='contentinfo'>
+ <div class='copyright'>
+  <p class='to-top'><a href='#container'>Return to top</a></p>  
+  <p><a href='/' rel='generator'>&#169; 2013 <data:blog.title/></a>.</p>
+  <p><a href='http://spot.sneeit.com/2014/05/famemag-free-minimalist-blogger-magazine-template.html' title='Learn more about this templates'>FameMag</a> by <a href='http://spot.sneeit.com/2014/05/famemag-free-minimalist-blogger-magazine-template.html' title='Find other templates'>Blogger Templates</a>.</p>
+ </div>
+   <b:section id='connect' class='H5-nav clear' showaddelement='no' maxwidgets='1'>
+    <b:widget id='LinkList2' locked='true' title='Social Link List' type='LinkList'>
+    <b:includable id='main'>
+
+  
+     <!-- flickr / google / facebook / twitter / rss -->
+       <ul>
+      <b:loop values='data:links' var='link'>
+        <li expr:class='data:link.name'><a expr:href='data:link.target'></a></li>
+      </b:loop>
+       </ul>
+       <b:include name='quickedit'/>
+  
+    </b:includable>
+    </b:widget>
+   </b:section>
+   
+  
+ </footer><!-- [end] footer -->
+</div><!-- [end] container -->
+
+
+
+<b:section class='demosite-activate demosite-premium' id='demosite-activate-wrap' showaddelement='no' maxwidgets='1'>
+ <b:widget id='FollowByEmail1' locked='true' title='Subscribe' type='FollowByEmail'>
+<b:includable id='main'>
+ <div class='H5-header demosite-header'>
+       
+ <form action='http://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;http://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
+        <table width='100%'>
+          <tr>
+            <td>
+              <input class='email-address' name='email' style='width: 100%' placeholder='Email address...' type='text'/>
+            </td>
+            <td width='100px'>
+              <input class='demosite-activate-trigger' type='submit' expr:value='data:title'/>
+            </td>
+          </tr>
+        </table>
+        <input expr:value='data:feedPath' name='uri' type='hidden'/>
+        <input name='loc' type='hidden' value='en_US'/>
+      </form>
+   
+   
+   </div>
+   
+   
+  
+  
+      
+</b:includable>
+</b:widget>
+</b:section>
+
+
+
+
+&lt;/div&gt;
+
+
+
+<b:section class='navbar hide' id='navbar' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'/>
+</b:section>
+<b:include data='blog' name='google-analytics'/>
+</body>
+</html>
