@@ -1,4 +1,0 @@
-dslr | digitalSLR
-" | in
-mp | megapixel
-lcd |
