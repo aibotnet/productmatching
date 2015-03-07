@@ -10,11 +10,6 @@ class Xpath:
         self.specxpatMap = {}
         self.revxpathMap = {}
 
-
-
-
-
-
     def loadXpaths(self, xpath_filename, domain_filename):
 
         file = open(xpath_filename)
